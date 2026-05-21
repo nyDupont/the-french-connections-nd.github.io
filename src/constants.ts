@@ -4,9 +4,40 @@ import { PuzzleImport } from './App';
 // Puzzle with an author field allow me to post their puzzle on the website.
 
 export const all_puzzles: PuzzleImport[] = [
+        {
+        puzzle_name: 'Custom 4',
+        puzzle_difficulty: 4,
+        puzzle_date: new Date('2026-05-22'),
+        author: '',
+        additional_text: '',
+        groups: [
+            {
+                
+                category: 'Latitudes remarquables',
+                items: ['équateur', 'capricorne', 'cancer', 'arctique'],
+                difficulty: 1,
+            },
+            {
+                category: 'Villes gagnées par LFI en 2026',
+                items: ['creil', 'la courneuve', 'roubaix', 'saint-denis'],
+                difficulty: 2,
+            },
+            {
+                category: 'Candidats historiques au méridien 0',
+                items: ['paris', 'greenwitch', 'toldède', 'uppsala'],
+                difficulty: 3,
+            },
+
+            {
+                category: 'Stations du métro parisien',
+                items: ['anvers', 'liège', 'pyrénnées', 'rennes'],
+                difficulty: 4,
+            }
+        ]
+    },
     {
         puzzle_name: 'Custom 3',
-        puzzle_difficulty: 5,
+        puzzle_difficulty: 4,
         puzzle_date: new Date('2026-05-21'),
         author: '',
         additional_text: '',
