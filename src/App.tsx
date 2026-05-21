@@ -9,6 +9,7 @@ import {
     Button,
     ChakraProvider,
     Circle,
+    Divider,
     Drawer,
     DrawerBody,
     DrawerCloseButton,
@@ -26,6 +27,9 @@ import {
     ModalCloseButton,
     ModalHeader,
     ModalOverlay,
+    Radio,
+    RadioGroup,
+    Select,
     Stack,
     Text,
     UnorderedList,
@@ -319,6 +323,29 @@ export const App = () => {
     // Sur desktop large, on affiche un sidebar permanent ; sur mobile, un drawer
     // const isDesktop = useBreakpointValue({ base: false, lg: true });
 
+    // États pour le tri et les filtres du sidebar
+    const [sortBy, setSortBy] = useState<'date' | 'name' | 'difficulty'>('date');
+    const [filterAuthor, setFilterAuthor] = useState<string>('');
+    const [filterDifficulty, setFilterDifficulty] = useState<string>('');
+
+    // Liste unique des auteurs (pour le filtre)
+    const uniqueAuthors = Array.from(
+        new Set(all_groups_name.map((p) => p.author).filter((a) => a !== ''))
+    ).sort();
+
+    // Applique filtres puis tri
+    const displayedPuzzles = all_groups_name
+        .filter((p) => {
+            if (filterAuthor && p.author !== filterAuthor) return false;
+            if (filterDifficulty && String(p.puzzle_difficulty) !== filterDifficulty) return false;
+            return true;
+        })
+        .sort((a, b) => {
+            if (sortBy === 'date') return b.puzzle_date.getTime() - a.puzzle_date.getTime();
+            if (sortBy === 'name') return a.puzzle_name.localeCompare(b.puzzle_name, 'fr');
+            if (sortBy === 'difficulty') return b.puzzle_difficulty - a.puzzle_difficulty;
+            return 0;
+        });
     
     /**
     useEffect(() => {
@@ -375,9 +402,58 @@ export const App = () => {
         return resultText(game) + '\n' + resultEmojis(game);
     }
 
+    const PuzzleControls = () => (
+        <VStack align="stretch" spacing={3} mb={3}>
+            <Box>
+                <Text fontSize="xs" fontWeight="semibold" mb={1}>Trier par</Text>
+                <RadioGroup
+                    value={sortBy}
+                    onChange={(v) => setSortBy(v as 'date' | 'name' | 'difficulty')}
+                >
+                    <HStack spacing={2}>
+                        <Radio value="date" size="sm">Date</Radio>
+                        <Radio value="name" size="sm">Titre</Radio>
+                        <Radio value="difficulty" size="sm">Difficulté</Radio>
+                    </HStack>
+                </RadioGroup>
+            </Box>
+            <Box>
+                <Text fontSize="xs" fontWeight="semibold" mb={1}>Filtrer par difficulté</Text>
+                <Select
+                    size="sm"
+                    value={filterDifficulty}
+                    onChange={(e) => setFilterDifficulty(e.target.value)}
+                >
+                    <option value="">Toutes</option>
+                    <option value="1">1 étoile</option>
+                    <option value="2">2 étoiles</option>
+                    <option value="3">3 étoiles</option>
+                    <option value="4">4 étoiles</option>
+                    <option value="5">5 étoiles</option>
+                </Select>
+            </Box>
+            {uniqueAuthors.length > 1 && (
+                <Box>
+                    <Text fontSize="xs" fontWeight="semibold" mb={1}>Filtrer par auteur</Text>
+                    <Select
+                        size="sm"
+                        value={filterAuthor}
+                        onChange={(e) => setFilterAuthor(e.target.value)}
+                    >
+                        <option value="">Tous</option>
+                        {uniqueAuthors.map((author) => (
+                            <option key={author} value={author}>{author}</option>
+                        ))}
+                    </Select>
+                </Box>
+            )}
+            <Divider />
+        </VStack>
+    );
+
     const PuzzleList = () => (
         <VStack align="stretch" spacing={1} w="100%">
-            {all_groups_name.map((puzzle: PuzzleImport) => {
+            {displayedPuzzles.map((puzzle: PuzzleImport) => {
                 const isCurrent = puzzle.puzzle_name === game.current_name;
                 return (
                     <Box
@@ -475,11 +551,11 @@ export const App = () => {
                         <DrawerCloseButton />
                         <DrawerHeader>Puzzles</DrawerHeader>
                         <DrawerBody>
+                            <PuzzleControls />
                             <PuzzleList />
                         </DrawerBody>
                     </DrawerContent>
                 </Drawer>
-
                 <Flex>
                 
                 <Box
@@ -496,6 +572,7 @@ export const App = () => {
                     display={{ base: 'none', lg: 'block' }}
                 >
                     <Heading size="md" mb={4}>Puzzles</Heading>
+                    <PuzzleControls />
                     <PuzzleList />
                 </Box>
 
