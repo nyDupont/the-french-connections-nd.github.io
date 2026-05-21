@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "14 juillet 2025 - Rasoir d'Ockham",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-07-14",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Dans la salle de bains",
+      "items": [
+        "Douche",
+        "Miroir",
+        "Serviette",
+        "Savon"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Lieu",
+      "items": [
+        "Site",
+        "Coin",
+        "Espace",
+        "Endroit"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "On y trouve des baguettes",
+      "items": [
+        "Restaurant\nchinois",
+        "Boulangerie",
+        "Orchestre",
+        "Poudlard"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + fiscal",
+      "items": [
+        "Paradis",
+        "Exil",
+        "Foyer",
+        "Timbre"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "25 décembre 2024 - Joyeux Noël",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-12-25",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Homophones",
+      "items": [
+        "Os",
+        "Eau",
+        "Oh",
+        "Haut"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Cercueil",
+      "items": [
+        "Sapin",
+        "Caisse",
+        "Boite",
+        "Bière"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Sept nains",
+      "items": [
+        "Joyeux",
+        "Atchoum",
+        "Dormeur",
+        "Timide"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Père + _",
+      "items": [
+        "Noèl",
+        "Adoptif",
+        "Lustucru",
+        "Grand"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "22 avril 2024 - Chat botté",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-04-22",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Au cœur de",
+      "items": [
+        "Capitale",
+        "Centrale",
+        "Essentielle",
+        "Principale"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Oreille",
+      "items": [
+        "Feuille",
+        "Anse",
+        "Portugaise",
+        "Pavillon"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Journaux quotidiens",
+      "items": [
+        "Monde",
+        "Libération",
+        "Humanité",
+        "Parisien"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Styles de jazz",
+      "items": [
+        "Fusion",
+        "Manouche",
+        "Avant-garde",
+        "Bebop"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

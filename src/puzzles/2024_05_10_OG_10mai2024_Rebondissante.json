@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "10 mai 2024 - Rebondissante",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-05-10",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "états de la matière",
+      "items": [
+        "Gazeux",
+        "Liquide",
+        "Solide",
+        "Plasma"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "équipement de pompier",
+      "items": [
+        "Casque",
+        "Gants",
+        "Cagoule",
+        "Chaussants"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Sur un clavier d'ordinateur",
+      "items": [
+        "Espace",
+        "Contrôle",
+        "Entrée",
+        "Fonction"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Jeux Pokemon",
+      "items": [
+        "Perle",
+        "Noir",
+        "Soleil",
+        "Bouclier"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

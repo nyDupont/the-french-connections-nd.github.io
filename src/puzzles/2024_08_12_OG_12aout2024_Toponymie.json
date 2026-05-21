@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "12 août 2024 - Toponymie",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-08-12",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Symboles nationaux",
+      "items": [
+        "Drapeau",
+        "Hymne",
+        "Devise",
+        "Sceau"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Agissant de façon indélicate",
+      "items": [
+        "Rustre",
+        "Mufle",
+        "Ours",
+        "Grossier"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Jeux avec des cartes",
+      "items": [
+        "Solitaire",
+        "Bataille",
+        "Tarot",
+        "Président"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Ayant un trou central",
+      "items": [
+        "Donut",
+        "CD",
+        "Anneau",
+        "Bouée"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "2 décembre 2024 - Fracture  générationnelle",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-12-02",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Genre musical",
+      "items": [
+        "Rap",
+        "Ska",
+        "RNB",
+        "EMO"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Formats de fichiers",
+      "items": [
+        "PDF",
+        "PNG",
+        "DOC",
+        "ZIP"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Abbréviations anglaises",
+      "items": [
+        "WTF",
+        "IDK",
+        "LOL",
+        "AKA"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Monnaies",
+      "items": [
+        "Yen",
+        "Lei",
+        "Won",
+        "Sol"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

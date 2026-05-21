@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "21 avril 2025 - Colombe",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-04-21",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Division territoriale",
+      "items": [
+        "District",
+        "Département",
+        "état",
+        "Commune"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Résultats d'un travail",
+      "items": [
+        "Moisson",
+        "Fruit",
+        "Récolte",
+        "Gain"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Grandes places parisiennes",
+      "items": [
+        "Nation",
+        "République",
+        "Concorde",
+        "Bastille"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + vert",
+      "items": [
+        "Légume",
+        "Pic",
+        "Feu",
+        "Petit\nhomme"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

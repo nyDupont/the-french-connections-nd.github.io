@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "21 juillet 2025 - Kagawa",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-07-21",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "C'est difficile",
+      "items": [
+        "Coton",
+        "épineux",
+        "Dur",
+        "Chaud"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Au cinéma",
+      "items": [
+        "Toile",
+        "Projecteur",
+        "Sièges",
+        "Popcorn"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Vêtements religieux",
+      "items": [
+        "Voile",
+        "Aube",
+        "Sari",
+        "Mitre"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Sous- + _",
+      "items": [
+        "Marin",
+        "Titre",
+        "Sol",
+        "Dosage"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

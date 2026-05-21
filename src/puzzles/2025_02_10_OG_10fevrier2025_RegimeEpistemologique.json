@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "10 février 2025 - Régime épistémologique",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-02-10",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Réuni·e",
+      "items": [
+        "Marie",
+        "Uni",
+        "Assemble",
+        "Joint"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Tissus",
+      "items": [
+        "Jean",
+        "Jute",
+        "Soie",
+        "Kevlar"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "On peut en faire don",
+      "items": [
+        "Sang",
+        "Gamètes",
+        "Argent",
+        "Organe"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Dans le titre des films James Bond avec Daniel Craig",
+      "items": [
+        "Casino",
+        "Spectre",
+        "Quantum",
+        "Mourir"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

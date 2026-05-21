@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "13 mai 2024 - Nobelisée",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-05-13",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "éléments",
+      "items": [
+        "Eau",
+        "Feu",
+        "Air",
+        "Terre"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Moralité",
+      "items": [
+        "Mœurs",
+        "Coutume",
+        "Usage",
+        "Habitudes"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Parties du pistil",
+      "items": [
+        "Style",
+        "Stigmate",
+        "Carpelle",
+        "Ovaire"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Variétés de pomme",
+      "items": [
+        "Diva",
+        "Rambour",
+        "Golden",
+        "Api"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

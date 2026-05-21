@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "19 mai 2025 - Référentiel héliocentrique",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-05-19",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Littoral",
+      "items": [
+        "Côte",
+        "Bord",
+        "Rive",
+        "Grève"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Commmence par un animal",
+      "items": [
+        "Chattanooga",
+        "Bouche",
+        "Oursin",
+        "Arachide"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Parties d'un violon",
+      "items": [
+        "Oüie",
+        "Corde",
+        "Chevalet",
+        "Cheville"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Peuvent être doublés : _ + _",
+      "items": [
+        "Train",
+        "Cul",
+        "Touk",
+        "Plan"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

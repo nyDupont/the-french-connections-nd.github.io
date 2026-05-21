@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "28 juillet 2025 - Cnidoblaste",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-07-28",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Nourriture",
+      "items": [
+        "Croûte",
+        "Vivre",
+        "Bouffe",
+        "Mets"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Problème",
+      "items": [
+        "Hic",
+        "Nœud",
+        "Os",
+        "Obstacle"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Palindromes",
+      "items": [
+        "Ici",
+        "Rêver",
+        "Sexes",
+        "Lebel"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Sur_",
+      "items": [
+        "Eau",
+        "Face",
+        "Nom",
+        "Plus"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

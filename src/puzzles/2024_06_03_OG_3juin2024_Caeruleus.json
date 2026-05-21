@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "3 juin 2024 - Caeruleus",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-06-03",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Parties du Requiem de Mozart",
+      "items": [
+        "Lacrymosa",
+        "Kyrie",
+        "Sanctus",
+        "Communio"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Locutions latines usuelles",
+      "items": [
+        "Dixit",
+        "Erratum",
+        "Idem",
+        "Prorata"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Planètes dans des œuvres de fiction",
+      "items": [
+        "Dune",
+        "Aurora",
+        "Hoth",
+        "Ego"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + sexualité",
+      "items": [
+        "Homo",
+        "A",
+        "Bi",
+        "Pan"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

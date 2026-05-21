@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "19 avril 2024 - Bergerac",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2024-04-19",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Grande quantité",
+      "items": [
+        "Masse",
+        "Montagne",
+        "Foule",
+        "Flopée"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Oiseaux",
+      "items": [
+        "Pic",
+        "Merle",
+        "Buse",
+        "Grive"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Anagrammes",
+      "items": [
+        "Argent",
+        "Grenat",
+        "Tanger",
+        "Ganter"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Chanteur·euses",
+      "items": [
+        "Lama",
+        "Piaf",
+        "Doré",
+        "Berger"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

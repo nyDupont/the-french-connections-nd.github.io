@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "24 février 2025 - Exercices de style",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-02-24",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Virtuose",
+      "items": [
+        "As",
+        "Champion",
+        "Crack",
+        "étoile"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Objet transparent",
+      "items": [
+        "Verre",
+        "Film",
+        "Vitre",
+        "Plexiglas"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Associé au matin",
+      "items": [
+        "Rosée",
+        "Aube",
+        "Coq",
+        "Réveil"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Forme des gâteaux (Dalgona) de Squid Game",
+      "items": [
+        "Carré",
+        "Triangle",
+        "Cercle",
+        "Parapluie"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

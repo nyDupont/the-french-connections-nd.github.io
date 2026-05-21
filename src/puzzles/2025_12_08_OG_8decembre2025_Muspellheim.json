@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "8 décembre 2025 - Muspellheim",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-12-08",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Du confort dans la voiture",
+      "items": [
+        "appui-tête",
+        "climatisation",
+        "pare-soleil",
+        "boîte à gants"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Importance d'un raisonnement ou d'un texte",
+      "items": [
+        "portée",
+        "force",
+        "valeur",
+        "poids"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Est originnellement un nom de marque",
+      "items": [
+        "Fermeture éclair",
+        "Frigidaire",
+        "Abribus",
+        "Escalator"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Porte + _",
+      "items": [
+        "blindée",
+        "papillon",
+        "tournante",
+        "coupe-feu"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

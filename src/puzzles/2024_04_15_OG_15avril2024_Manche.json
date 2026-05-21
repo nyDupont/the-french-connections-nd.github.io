@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "15 avril 2024 - Manche",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2024-04-15",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Outils de maquillage",
+      "items": [
+        "Pinceau",
+        "Miroir",
+        "Baume",
+        "Ombreur"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Grandit",
+      "items": [
+        "Pousse",
+        "Progresse",
+        "élève",
+        "Croît"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Différents sens de « maître »",
+      "items": [
+        "Enseignant",
+        "Chef",
+        "Propriétaire",
+        "Artiste"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + anglaise",
+      "items": [
+        "Clé",
+        "Crème",
+        "Cour",
+        "Semaine"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

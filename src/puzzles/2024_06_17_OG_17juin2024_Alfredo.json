@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "17 juin 2024 - Alfredo",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-06-17",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Commence par un animal",
+      "items": [
+        "Chatouille",
+        "Ratatouille",
+        "Dauphinois",
+        "Poissonnier"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Apprécié",
+      "items": [
+        "Cher",
+        "Adoré",
+        "Aimé",
+        "élu"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Fromages français",
+      "items": [
+        "Abondance",
+        "Chèvre",
+        "Bleu",
+        "Cantal"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Poses de yoga",
+      "items": [
+        "Cobra",
+        "Triangle",
+        "Enfant",
+        "Pont"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

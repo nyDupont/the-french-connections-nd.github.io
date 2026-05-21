@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "10 mars 2025 - Feu aux poudres",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-03-10",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Dans les mondes l'imaginaire",
+      "items": [
+        "Magie",
+        "Extra-terrestre",
+        "Monstre",
+        "Fée"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Soldat",
+      "items": [
+        "Guerrier",
+        "Fantassin",
+        "Soudard",
+        "Bleu"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Séries d'animation",
+      "items": [
+        "Avatar",
+        "Arcane",
+        "Simpsons",
+        "Berserk"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Jour + _",
+      "items": [
+        "Férié",
+        "J",
+        "Ouvrable",
+        "Sans"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

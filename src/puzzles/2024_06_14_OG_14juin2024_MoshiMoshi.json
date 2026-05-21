@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "14 juin 2024 - Moshi moshi",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-06-14",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Récompenses artistiques",
+      "items": [
+        "César",
+        "Victoire",
+        "Molière",
+        "Palme"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Manières de se repérer",
+      "items": [
+        "étoiles",
+        "GPS",
+        "Boussole",
+        "Carte"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Quand on joue au tarot",
+      "items": [
+        "Coupe",
+        "Annonce",
+        "Appel",
+        "Chien"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Dans le titre d'émissions de télé-réalité",
+      "items": [
+        "Anges",
+        "Marseillais",
+        "Secret",
+        "Star"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

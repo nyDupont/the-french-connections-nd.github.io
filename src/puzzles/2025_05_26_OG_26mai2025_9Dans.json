@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "26 mai 2025 - 9 dans",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-05-26",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Secoues",
+      "items": [
+        "Balances",
+        "Meus",
+        "Branles",
+        "Agites"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Armes du Moyen-âge",
+      "items": [
+        "Fléaux",
+        "Lances",
+        "Sabres",
+        "Piques"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Groupe de personnes alignées",
+      "items": [
+        "Files",
+        "Queues",
+        "Colonnes",
+        "Brochettes"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Département français + s",
+      "items": [
+        "Chers",
+        "Lots",
+        "Manches",
+        "Sommes"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

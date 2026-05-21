@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "9 août 2024 - Jimbo",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-08-09",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Estimation",
+      "items": [
+        "Calcul",
+        "Jugement",
+        "Appréciation",
+        "évaluation"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Mains au poker",
+      "items": [
+        "Paire",
+        "Couleur",
+        "Carré",
+        "Suite"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Ce qu'un angle peut être",
+      "items": [
+        "Droit",
+        "Plat",
+        "Aigu",
+        "Obtus"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Commence comme un lieu naturel",
+      "items": [
+        "Désertion",
+        "Lacune",
+        "Champion",
+        "Plagiat"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

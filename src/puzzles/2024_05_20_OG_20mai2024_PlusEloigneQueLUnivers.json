@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "20 mai 2024 - Plus éloigné que l'univers",
+  "puzzle_difficulty": 1,
+  "puzzle_date": "2024-05-20",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Guerre",
+      "items": [
+        "Combat",
+        "Conflit",
+        "Bataille",
+        "Lutte"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Ventes d'occasion",
+      "items": [
+        "Chine",
+        "Fripes",
+        "Brocante",
+        "Antiquité"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Océans",
+      "items": [
+        "Indien",
+        "Arctique",
+        "Austral",
+        "Pacifique"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Caractéristiques des nombres",
+      "items": [
+        "Pair",
+        "Premier",
+        "Voisin",
+        "Parfait"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

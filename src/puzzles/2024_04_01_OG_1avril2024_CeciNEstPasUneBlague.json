@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "1er avril 2024 - Ceci n'est pas une blague",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-04-01",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Pour écrire une lettre",
+      "items": [
+        "Timbre",
+        "Feuille",
+        "Plume",
+        "Encre"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Météo agréable",
+      "items": [
+        "Clément",
+        "Doux",
+        "Frais",
+        "Tiède"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Homophones de lettres",
+      "items": [
+        "Dé",
+        "Hache",
+        "Eau",
+        "Haine"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Ce que « C » peut signifier",
+      "items": [
+        "Do",
+        "Carbone",
+        "Cent",
+        "Celsius"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

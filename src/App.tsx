@@ -630,7 +630,7 @@ export const App = () => {
                             </ModalContent>
                         </Modal>
                         {game.author != '' && (
-                            <Text mb='0.5rem' fontSize={['2xs', 'xs', 'sm', 'md']} px={[2, 3, 4]} textAlign="center" wordBreak="break-word" fontStyle={'italic'}>Puzzle créé par : {game.author}.</Text>
+                            <Text mt='-1rem' mb='0.25rem' fontSize={['2xs', 'xs', 'sm', 'md']} px={[2, 3, 4]} textAlign="center" wordBreak="break-word" fontStyle={'italic'}>Auteurice : {game.author}</Text>
                         )}
                         {game.additional_text != '' && (
                             <Text mb='0.5rem' fontSize={['2xs', 'xs', 'sm', 'md']} px={[2, 3, 4]} textAlign="center" wordBreak="break-word" fontStyle={'italic'}>{game.additional_text}</Text>

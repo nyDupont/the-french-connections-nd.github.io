@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "8 avril 2024 - Biodiversité",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-04-08",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Sa majesté",
+      "items": [
+        "Empereur",
+        "Monarque",
+        "Prince",
+        "Souverain"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Mascottes des maisons de Poudlard",
+      "items": [
+        "Blaireau",
+        "Lion",
+        "Aigle",
+        "Serpent"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Pièces d'échecs",
+      "items": [
+        "Fou",
+        "Tour",
+        "Cavalier",
+        "Dame"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Petits fleuves français",
+      "items": [
+        "Douve",
+        "Loup",
+        "Rat",
+        "Rance"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

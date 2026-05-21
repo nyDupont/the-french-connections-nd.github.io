@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "16 juin 2025 - Shining",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-06-16",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Dans une chambre",
+      "items": [
+        "Posters",
+        "Réveils",
+        "Oreillers",
+        "Draps"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Querelles",
+      "items": [
+        "Prises",
+        "Tensions",
+        "Frictions",
+        "Brouilles"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Parties d'un théâtre",
+      "items": [
+        "Balcons",
+        "Loges",
+        "Fosses",
+        "Scènes"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Vont par paires",
+      "items": [
+        "Ciseaux",
+        "Lunettes",
+        "Chaussettes",
+        "Jumelles"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

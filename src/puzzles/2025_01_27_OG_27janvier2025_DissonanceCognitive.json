@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "27 janvier 2025 - Dissonance cognitive",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-01-27",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Partie extrême d'une chose",
+      "items": [
+        "Bout",
+        "Queue",
+        "Fin",
+        "Extrémité"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Marques de Supermarché",
+      "items": [
+        "Géant",
+        "Casino",
+        "Carrefour",
+        "Champion"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Satellites naturels du système solaire",
+      "items": [
+        "Europe",
+        "Titan",
+        "Lune",
+        "Triton"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + droit",
+      "items": [
+        "Angle",
+        "Coup",
+        "Piano",
+        "Pied"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

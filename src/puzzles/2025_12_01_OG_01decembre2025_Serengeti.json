@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "01 décembre 2025 - Serengeti",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-12-01",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Subsiste en très faibles proportions",
+      "items": [
+        "Trace",
+        "Reste",
+        "Bribe",
+        "Résidu"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Unité pour quantifier le volume d'un texte",
+      "items": [
+        "signe",
+        "lettre",
+        "chapitre",
+        "page"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "De forme conique",
+      "items": [
+        "Sapin de Noël",
+        "Entonnoir",
+        "Cornet",
+        "Chapeau pointu"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Éléments d'origine humaine actuellement sur la Lune",
+      "items": [
+        "Rover",
+        "Drapeau américain",
+        "Empreinte",
+        "Médaille"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

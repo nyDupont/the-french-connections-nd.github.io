@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "7 juin 2024 - Autoroute",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-06-07",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Objets de mesure",
+      "items": [
+        "Balance",
+        "Règle",
+        "Télémètre",
+        "Radar"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Dans un circuit éléctrique",
+      "items": [
+        "Résistance",
+        "Charge",
+        "Tension",
+        "Puissance"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Premier·es ministres français·es",
+      "items": [
+        "Barre",
+        "Cresson",
+        "Philippe",
+        "Borne"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Super + _",
+      "items": [
+        "Marché",
+        "Héros",
+        "Continent",
+        "Pose"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "26 juillet 2024 - Corea",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-07-26",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Argent en argot",
+      "items": [
+        "Blé",
+        "Oseille",
+        "Pèze",
+        "Pognon"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Pour motiver",
+      "items": [
+        "Carotte",
+        "Récompense",
+        "Prime",
+        "Gratification"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Plante rhizomatique",
+      "items": [
+        "Lys",
+        "Bambou",
+        "Gingembre",
+        "Menthe"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Pour faire de l'alcool",
+      "items": [
+        "Raisin",
+        "Pomme",
+        "Riz",
+        "Orge"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

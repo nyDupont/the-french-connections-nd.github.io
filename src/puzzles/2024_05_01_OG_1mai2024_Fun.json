@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "1er mai 2024 - Fun",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-05-01",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Adjectifs possessifs pluriels",
+      "items": [
+        "Mes",
+        "Tes",
+        "Nos",
+        "Vos"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Plantes",
+      "items": [
+        "Lys",
+        "Blé",
+        "Ail",
+        "Lin"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Dynasties chinoises",
+      "items": [
+        "Qin",
+        "Sui",
+        "Jin",
+        "Han"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Groupes de K-pop",
+      "items": [
+        "BTS",
+        "EXO",
+        "AOA",
+        "NCT"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

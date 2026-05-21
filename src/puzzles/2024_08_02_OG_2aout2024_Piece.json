@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "2 août 2024 - Pièce",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-08-02",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "équipement d'une nageur·se",
+      "items": [
+        "Bonnet",
+        "Maillot",
+        "Lunettes",
+        "Palmes"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Pluie",
+      "items": [
+        "Eau",
+        "Grain",
+        "Flotte",
+        "Abat"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Genres littéraires",
+      "items": [
+        "Policier",
+        "Mémoires",
+        "Anticipation",
+        "Historique"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "étymologie provenant de l'arabe",
+      "items": [
+        "Abricot",
+        "Assassin",
+        "Café",
+        "Sultan"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

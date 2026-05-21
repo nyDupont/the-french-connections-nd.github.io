@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "1er juillet 2024 - Incandescent",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2024-07-01",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Système international d'unités",
+      "items": [
+        "Mètre",
+        "Seconde",
+        "Mole",
+        "Candela"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Dans une trousse",
+      "items": [
+        "Crayon",
+        "Règle",
+        "Fluo",
+        "Colle"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Nuances de bleu",
+      "items": [
+        "Ciel",
+        "Marine",
+        "Turquoise",
+        "Saphir"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Artistes de rock",
+      "items": [
+        "Prince",
+        "Muse",
+        "Oasis",
+        "Scorpions"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

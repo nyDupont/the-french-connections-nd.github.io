@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "19 juillet 2024 - Liant",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-07-19",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "En terre du milieu",
+      "items": [
+        "Elfe",
+        "Homme",
+        "Nain",
+        "Orque"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Aisé",
+      "items": [
+        "Riche",
+        "Bourgeois",
+        "Nanti",
+        "Huppé"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Pièces de théâtre de Molière",
+      "items": [
+        "Avare",
+        "Tartuffe",
+        "Misanthrope",
+        "Amphitryon"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Corps + _",
+      "items": [
+        "Humain",
+        "Diplomatique",
+        "étranger",
+        "Noir"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

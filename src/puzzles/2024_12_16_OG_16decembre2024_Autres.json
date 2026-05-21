@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "16 décembre 2024 - Autres",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-12-16",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Objectifs",
+      "items": [
+        "Mires",
+        "Buts",
+        "Cibles",
+        "Caps"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Endroits fermés où se passent des courses",
+      "items": [
+        "Lices",
+        "Champs",
+        "Arènes",
+        "Enceintes"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Tribus indigènes américaines",
+      "items": [
+        "Inuits",
+        "Mohicans",
+        "Neutres",
+        "ériés"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Faux + _",
+      "items": [
+        "Jumeaux",
+        "Départs",
+        "Amis",
+        "Contacts"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

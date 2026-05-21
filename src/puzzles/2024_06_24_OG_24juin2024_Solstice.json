@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "24 juin 2024 - Solstice",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-06-24",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Expiration pulmonaire",
+      "items": [
+        "Soupir",
+        "Sanglot",
+        "Souffle",
+        "Expiration"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Valeurs d'une note de musique",
+      "items": [
+        "Ronde",
+        "Noire",
+        "Blanche",
+        "Croche"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Unités du système impérial",
+      "items": [
+        "Ligne",
+        "Pouce",
+        "Pied",
+        "Chaînon"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + américain",
+      "items": [
+        "Football",
+        "Poing",
+        "Rêve",
+        "Café"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

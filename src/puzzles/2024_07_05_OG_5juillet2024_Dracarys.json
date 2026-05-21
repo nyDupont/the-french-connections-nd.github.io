@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "5 juillet 2024 - Dracarys",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-07-05",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Cours au collège",
+      "items": [
+        "Français",
+        "Histoire",
+        "Technologie",
+        "Musique"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Utilisé en informatique",
+      "items": [
+        "Code",
+        "Programme",
+        "Application",
+        "Logiciel"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Pour attacher",
+      "items": [
+        "Cordon",
+        "Dragonne",
+        "Lanière",
+        "Chaine"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Que l'on peut presser",
+      "items": [
+        "Orange",
+        "Bouton",
+        "Pas",
+        "Touche"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "10 novembre 2025 - Microtonalité",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-11-10",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Un prix trop élevé",
+      "items": [
+        "salé",
+        "cher",
+        "prohibitif",
+        "exorbitant"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Indécent, inconvenant",
+      "items": [
+        "cru",
+        "osé",
+        "raide",
+        "déplacé"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "A bien mangé",
+      "items": [
+        "calé",
+        "saoul",
+        "plein",
+        "rempli"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "A fait une opération mathématique",
+      "items": [
+        "carré",
+        "dérivé",
+        "inversé",
+        "doublé"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

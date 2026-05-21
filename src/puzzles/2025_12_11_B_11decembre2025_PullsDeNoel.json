@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "11 décembre 2025 - Pulls de Noël",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-12-11",
+  "author": "Bocky",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Types de baguettes",
+      "items": [
+        "Flûte",
+        "Ficelle",
+        "tradition",
+        "moulée"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Parties d'une machine à laver",
+      "items": [
+        "Tambour",
+        "filtre",
+        "courroie",
+        "hublot"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Termine par une matière première",
+      "items": [
+        "Hautbois",
+        "Saint-Pierre",
+        "Cimeterre",
+        "Passable"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + droit",
+      "items": [
+        "Piano",
+        "bras",
+        "angle",
+        "passe"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

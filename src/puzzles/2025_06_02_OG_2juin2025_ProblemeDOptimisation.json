@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "2 juin 2025 - Problème d'optimisation",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-06-02",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Signes astrologiques",
+      "items": [
+        "Balance",
+        "Vierge",
+        "Cancer",
+        "Lion"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Manigances",
+      "items": [
+        "Cuisine",
+        "Intrigue",
+        "Tripotage",
+        "Manœuvre"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Toilettes",
+      "items": [
+        "Trône",
+        "Cabinet",
+        "Sanitaire",
+        "Latrine"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + noire",
+      "items": [
+        "Forêt",
+        "Chambre",
+        "Magie",
+        "Marée"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

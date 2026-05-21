@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "25 novembre 2024 - Carte",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-11-25",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Ecchymose",
+      "items": [
+        "Bleu",
+        "Châtaigne",
+        "Coup",
+        "Beigne"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Bobards",
+      "items": [
+        "Salades",
+        "Pipeau",
+        "Craques",
+        "Canard"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Personnages du Cluedo",
+      "items": [
+        "Blanc",
+        "Moutarde",
+        "Violet",
+        "Olive"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Divinités primordiales grecques",
+      "items": [
+        "Chaos",
+        "éther",
+        "Tartare",
+        "Thalassa"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

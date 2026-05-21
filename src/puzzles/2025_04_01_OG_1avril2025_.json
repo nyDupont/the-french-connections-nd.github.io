@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "1er avril 2025 - ...",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2025-04-01",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Noms de tableaux",
+      "items": [
+        "Bal du\nmoulin de la\nGalette",
+        "Le Baiser",
+        "Impression,\nSoleil Levant",
+        "Le radeau de\nla méduse"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "N'arrive qu'une fois par an",
+      "items": [
+        "Anniversaire",
+        "Le 24 mai",
+        "Championnat\ndu monde de\nfléchettes",
+        "Cerisiers en\nfleurs"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Figures de style",
+      "items": [
+        "Copains\ncomme\ncochons",
+        "Bizarre,\nbizarre...",
+        "Va, cours,\nvole,",
+        "vénale et\nvirulente\nvermine"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Blagues vraiment pas drôle",
+      "items": [
+        "Un poisson d'Avril",
+        "Ce puzzle",
+        "Qu'est-ce qui\nest jaune et\nqui attends",
+        "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" target=\"_blank\">Clique ici !</a>"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

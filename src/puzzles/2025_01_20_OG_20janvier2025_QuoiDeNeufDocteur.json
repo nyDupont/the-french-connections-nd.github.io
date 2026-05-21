@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "20 janvier 2025 - Quoi de neuf docteur ?",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-01-20",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Dossier d'une boite mail",
+      "items": [
+        "Envoyé",
+        "Brouillons",
+        "Spam",
+        "Corbeille"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Prison",
+      "items": [
+        "Placard",
+        "Boite",
+        "Cage",
+        "Cellule"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "TItres à la Bourse",
+      "items": [
+        "Action",
+        "Obligation",
+        "Option",
+        "Part"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Postes au basket",
+      "items": [
+        "Meneur",
+        "Arrière",
+        "Ailier",
+        "Pivot"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

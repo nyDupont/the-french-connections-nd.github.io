@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "11 novembre 2024 - DK",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-11-11",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Renommé",
+      "items": [
+        "Populaire",
+        "Célèbre",
+        "Connu",
+        "Réputé"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Sous-genres de la science-fiction",
+      "items": [
+        "Cyberpunk ",
+        "Uchronie",
+        "Anticipation",
+        "Mecha"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Style architectural",
+      "items": [
+        "Gothique",
+        "Roman",
+        "Baroque",
+        "Classique"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Effet + _",
+      "items": [
+        "Papillon",
+        "Domino",
+        "Rebond",
+        "Secondaire"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

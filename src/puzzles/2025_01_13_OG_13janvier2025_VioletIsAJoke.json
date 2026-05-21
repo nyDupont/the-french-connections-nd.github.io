@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "13 janvier 2025 - Violet is a joke",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2025-01-13",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Conjonctions de coordination",
+      "items": [
+        "Ou",
+        "Et",
+        "Or",
+        "Ni"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Utiles au Scrabble",
+      "items": [
+        "Wu",
+        "Ay",
+        "Ex",
+        "Xi"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Symboles chimiques de gaz nobles",
+      "items": [
+        "He",
+        "Ne",
+        "Ar",
+        "Rn"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Code ISO 3166-1 de pays dont la capitale a une latitude entre +6 et +7",
+      "items": [
+        "LR",
+        "FM",
+        "GY",
+        "LK"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

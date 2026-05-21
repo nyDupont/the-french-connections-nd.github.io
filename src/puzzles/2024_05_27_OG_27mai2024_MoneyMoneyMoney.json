@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "27 mai 2024 - Money money money",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2024-05-27",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Créatures magiques",
+      "items": [
+        "Fée",
+        "Korrigan",
+        "Lutin",
+        "Génie"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Offrande",
+      "items": [
+        "Cadeau",
+        "Don",
+        "Présent",
+        "Faveur"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Palindromes",
+      "items": [
+        "Kayak",
+        "ABBA",
+        "Radar",
+        "Ressasser"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Films avec Omar Sy",
+      "items": [
+        "Intouchables",
+        "Chocolat",
+        "Police",
+        "Inferno"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

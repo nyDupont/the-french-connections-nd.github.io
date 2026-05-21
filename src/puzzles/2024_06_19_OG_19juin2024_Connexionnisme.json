@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "19 juin 2024 - Connexionnisme",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-06-19",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "égocentrisme",
+      "items": [
+        "égoïsme",
+        "Individualisme",
+        "Nombrilisme",
+        "Personnalisme"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Mouvements littéraire",
+      "items": [
+        "Romantisme",
+        "Réalisme",
+        "Futurisme",
+        "Symbolisme"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Mouvements deprotection animale",
+      "items": [
+        "Abolitionnisme",
+        "Welfarisme",
+        "Protectionnisme",
+        "Environnementalisme"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Rappeurs français + isme",
+      "items": [
+        "Valdisme",
+        "Schisme",
+        "Zolaïsme",
+        "Alisme"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

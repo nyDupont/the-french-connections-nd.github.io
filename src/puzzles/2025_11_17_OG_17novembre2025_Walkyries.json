@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "17 novembre 2025 - Walkyries",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-11-17",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Groupe fermé",
+      "items": [
+        "cercle",
+        "clique",
+        "sérail",
+        "clan"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Café",
+      "items": [
+        "jus",
+        "filtre",
+        "allongé",
+        "crème"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Petit avion",
+      "items": [
+        "coucou",
+        "jet",
+        "taxi",
+        "zinc"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Voiture, dans une autre langue",
+      "items": [
+        "car",
+        "coche",
+        "auto",
+        "araba"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "22 juillet 2024 - Not a nerd",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2024-07-22",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Capitales d'Océanie",
+      "items": [
+        "Wellington",
+        "Suva",
+        "Apia",
+        "Canberra"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Villes à plus de 2000 mètres",
+      "items": [
+        "La Paz",
+        "Lhasa",
+        "Quito",
+        "Santa Fe"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Non-capitales ayant accueillies les JO",
+      "items": [
+        "Saint-Louis",
+        "Munich",
+        "Atlanta",
+        "Anvers"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Ayant un élément du tableau périodique à leurs noms",
+      "items": [
+        "Berkeley",
+        "Darmstadt",
+        "Doubna",
+        "Moscou"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

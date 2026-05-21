@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "14 avril 2025 - Routes",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-04-14",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Composants d'un ordinateur",
+      "items": [
+        "Clavier",
+        "Souris",
+        "Moniteur",
+        "Ventilateur"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Texte publié",
+      "items": [
+        "Papier",
+        "Article",
+        "Chronique",
+        "Manuscrit"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Abuse de quelqu'un·e",
+      "items": [
+        "Roule",
+        "Leurre",
+        "Carotte",
+        "Trompe"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Personnages d'Undertale",
+      "items": [
+        "Sans",
+        "Papyrus",
+        "Dummy",
+        "Chara"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "8 mai 2024 - Bataille navale",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2024-05-08",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "(Ex-) Chaines de télévision",
+      "items": [
+        "C8",
+        "D8",
+        "M6",
+        "W9"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Homophones d'un nom commun",
+      "items": [
+        "D3",
+        "I2",
+        "S1",
+        "K6"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Dans l'atmosphère",
+      "items": [
+        "O2",
+        "N2",
+        "H2",
+        "O3"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "ISO 216",
+      "items": [
+        "A4",
+        "A5",
+        "B2",
+        "B6"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "29 avril 2024 - 2020",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-04-29",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Manifestation rapide",
+      "items": [
+        "éclair",
+        "Brusque",
+        "Brève",
+        "Soudaine"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Os",
+      "items": [
+        "Carpe",
+        "Côte",
+        "Rotule",
+        "Trapèze"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Manières de cuisiner des œufs",
+      "items": [
+        "Coque",
+        "Mollet",
+        "Mimosa",
+        "Dur"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Télé + _",
+      "items": [
+        "Vision",
+        "Chargement",
+        "Commande",
+        "Travail"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

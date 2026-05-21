@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "9 juin 2025 - Dyonisiaques",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2025-06-09",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Manifeste",
+      "items": [
+        "évident",
+        "Hors de\ndoute",
+        "Incontestable",
+        "Réel"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Entreprise à croissance rapide",
+      "items": [
+        "Jeune\npousse",
+        "Licorne",
+        "Scale-up",
+        "Entreprise\ndisruptive"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Dans le titre des albums d'Astérix",
+      "items": [
+        "Jeux\nOlympiques",
+        "Corse",
+        "Latraviata",
+        "Grand\nFossé"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Objet symbole d'un mouvement social récent",
+      "items": [
+        "Gilet de\nhaute\nvisibilité",
+        "Parapluie",
+        "Bonnet\nrouge",
+        "Casserole"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

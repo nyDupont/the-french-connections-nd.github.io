@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "12 juillet 2024 - If",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-07-12",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Autour du cou",
+      "items": [
+        "Fraise",
+        "Collier",
+        "Bandana",
+        "écharpe"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Pendentif",
+      "items": [
+        "Ambre",
+        "Jade",
+        "Perle",
+        "Dent"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Particulièrement raffiné",
+      "items": [
+        "Astral",
+        "Céleste",
+        "Aérien",
+        "Subtil"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Chansons de Johnny Hallyday",
+      "items": [
+        "Pénitencier",
+        "Diego",
+        "Laura",
+        "Mirador"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

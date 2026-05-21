@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "3 février 2025 - Dague",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2025-02-03",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Signes du zodiaque",
+      "items": [
+        "Bélier",
+        "Cancer",
+        "Vierge",
+        "Balance"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Nuit au bien-être",
+      "items": [
+        "Toxique",
+        "Méphitique",
+        "Poison",
+        "Mauvais"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Contenance des bouteilles de vins",
+      "items": [
+        "Bouteille",
+        "Demie",
+        "Magnum",
+        "Mathusalem"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Commence par une partie du visage",
+      "items": [
+        "Boucherie",
+        "Oreillette",
+        "Frontalier",
+        "Jouet"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "18 novembre 2024 - Croise les doigts",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2024-11-18",
+  "author": "OG",
+  "additional_text": "Selon l'appareil utilisé, certains emojis peuvent ne pas s'afficher comme prévu.",
+  "groups": [
+    {
+      "category": "Réactions dans les applications de messagerie",
+      "items": [
+        "<p style=\"font-size:20px;\">&#128077;</p>",
+        "<p style=\"font-size:20px;\">&#129505;</p>",
+        "<p style=\"font-size:20px;\">&#128558;</p>",
+        "<p style=\"font-size:20px;\">&#128549;</p>"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Emojis bleus",
+      "items": [
+        "<p style=\"font-size:20px;\">&#128153;</p> ",
+        "<p style=\"font-size:20px;\">&#128216;</p>",
+        "<p style=\"font-size:20px;\">&#129398;</p>",
+        "<p style=\"font-size:20px;\">&#128086;</p>"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Symboles LGBTQIA+",
+      "items": [
+        "<p style=\"font-size:20px;\">&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;</p>",
+        "<p style=\"font-size:20px;\">&#x1F984;</p>",
+        "<p style=\"font-size:20px;\">&#129416;</p>",
+        "<p style=\"font-size:20px;\">&#x26A7;&#xFE0F;</p>"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "On parle des phases de...",
+      "items": [
+        "<p style=\"font-size:20px;\">&#128164;</p>",
+        "<p style=\"font-size:20px;\">&#127768;</p>",
+        "<p style=\"font-size:20px;\">&#x1FAA6;</p>",
+        "<p style=\"font-size:20px;\">&#x26A1;</p>"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

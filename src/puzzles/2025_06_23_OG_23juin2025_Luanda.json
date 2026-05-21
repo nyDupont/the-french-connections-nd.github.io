@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "23 juin 2025 - Luanda",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-06-23",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Endroit à fort débit d'eau",
+      "items": [
+        "Rapide",
+        "Chute",
+        "Cascade",
+        "Torrent"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Coup au tennis",
+      "items": [
+        "Volée",
+        "Service",
+        "Revers",
+        "Amorti"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Catégories d'âge en sport",
+      "items": [
+        "Poussin",
+        "Vétéran",
+        "Minime",
+        "Espoir"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Arbre + _",
+      "items": [
+        "Fruitier",
+        "Généalogique",
+        "Binaire",
+        "Phylogénétique"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

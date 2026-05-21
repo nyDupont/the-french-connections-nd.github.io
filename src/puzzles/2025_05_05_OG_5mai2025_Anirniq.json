@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "5 mai 2025 - Anirniq",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-05-05",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Acclamations",
+      "items": [
+        "Bravo",
+        "Hourra",
+        "Ovation",
+        "Vivat"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Désorganisé",
+      "items": [
+        "Cata",
+        "Bordel",
+        "Souk",
+        "Bazar"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Interjections pour exprimer une émotion",
+      "items": [
+        "Ouin",
+        "Ah",
+        "Chut",
+        "Ouf"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Homophones de nombres",
+      "items": [
+        "Vin",
+        "Hein",
+        "Sang",
+        "Sète"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

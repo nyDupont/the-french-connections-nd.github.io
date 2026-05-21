@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "16 août 2024 - Encore",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-08-16",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Anciens noms de pays",
+      "items": [
+        "Swaziland",
+        "Zaïre",
+        "Birmanie",
+        "Ceylan"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Pays dont le nom est aussi celui de sa capitale",
+      "items": [
+        "Guatemala",
+        "Koweït",
+        "Panama",
+        "Luxembourg"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Drapeaux contenant l'Union Jack",
+      "items": [
+        "Fidji",
+        "Royaume-Uni",
+        "Tuvalu",
+        "Australie"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Aliments et vari�t�s d'aliments",
+      "items": [
+        "Bulgarie",
+        "Chili",
+        "Canada",
+        "Corée"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

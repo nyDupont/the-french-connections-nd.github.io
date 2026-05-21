@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "4 août 2025 - Helen Keller",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-08-04",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Mettre au lit",
+      "items": [
+        "Endors",
+        "Couche",
+        "Berce",
+        "Allonge"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Club de jazz",
+      "items": [
+        "Cave",
+        "Lounge",
+        "Club",
+        "Boîte"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Radio France",
+      "items": [
+        "Inter",
+        "Info",
+        "Musique",
+        "Culture"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + à jour",
+      "items": [
+        "Mise",
+        "Percer",
+        "Tenu",
+        "être"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

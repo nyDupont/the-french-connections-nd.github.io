@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "29 juillet 2024 - Bannissement",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-07-29",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Spécial",
+      "items": [
+        "Unique",
+        "Rare",
+        "Exceptionnel",
+        "Singulier"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Mouvement circulaire",
+      "items": [
+        "Révolution",
+        "Cycle",
+        "Tour",
+        "Cercle"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Noms vernaculaires de poissons",
+      "items": [
+        "Bar",
+        "Raie",
+        "Hippocampe",
+        "Lieu"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Ce que « X » peut signifier",
+      "items": [
+        "Dix",
+        "Inconnue",
+        "Polytechnique",
+        "Pornographique"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

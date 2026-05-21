@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "10 juin 2024 - Faille",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-06-10",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Chouettes",
+      "items": [
+        "Hulotte",
+        "Fauve",
+        "Masquée",
+        "Lapone"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Agrès de gymnastique",
+      "items": [
+        "Sol",
+        "Anneaux",
+        "Poutre",
+        "Trampoline"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Concierge",
+      "items": [
+        "Gardien",
+        "Suisse",
+        "Cerbère",
+        "Veilleur"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Champions de League of Legends",
+      "items": [
+        "Nocturne",
+        "Karma",
+        "Talon",
+        "Lux"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

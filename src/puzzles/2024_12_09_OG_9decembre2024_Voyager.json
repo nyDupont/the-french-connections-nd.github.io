@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "9 décembre 2024 - Voyager",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-12-09",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Disparition momentanée",
+      "items": [
+        "éclipse",
+        "Absence",
+        "Manque",
+        "Défaillance"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "éclairé",
+      "items": [
+        "Clair",
+        "Solaire",
+        "Net",
+        "Lumineux"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Insectes",
+      "items": [
+        "Atlas",
+        "Gendarme",
+        "Capricorne",
+        "Puce"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Calendriers",
+      "items": [
+        "Républicain",
+        "Lunaire",
+        "Julien",
+        "Grégorien"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

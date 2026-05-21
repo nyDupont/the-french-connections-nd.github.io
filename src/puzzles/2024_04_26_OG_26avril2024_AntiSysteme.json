@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "26 avril 2024 - Anti-système",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2024-04-26",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Propriété",
+      "items": [
+        "Terre",
+        "Domaine",
+        "Jardin",
+        "Terrain"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Planètes gazeuses",
+      "items": [
+        "Uranus",
+        "Neptune",
+        "Jupiter",
+        "Saturne"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Métaux pauvres",
+      "items": [
+        "Mercure",
+        "Gallium",
+        "Plomb",
+        "Aluminium"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Barres chocolatées",
+      "items": [
+        "Snickers",
+        "Bounty",
+        "Lion",
+        "Mars"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

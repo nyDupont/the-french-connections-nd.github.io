@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "24 avril 2024 - Une part de tarte",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-04-24",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Nombres (mal)chanceux",
+      "items": [
+        "4",
+        "7",
+        "13",
+        "666"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Début d'une République Française",
+      "items": [
+        "1792",
+        "1848",
+        "1870",
+        "1958"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Dans un titre de livre (très) connu",
+      "items": [
+        "1984",
+        "2001",
+        "20000",
+        "93"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Nombres parfaits",
+      "items": [
+        "6",
+        "28",
+        "496",
+        "8128"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

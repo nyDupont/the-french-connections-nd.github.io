@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "24 novembre 2025 - Soulèvements de la Terre",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-11-24",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Projet en cours",
+      "items": [
+        "entreprise",
+        "oeuvre",
+        "travail",
+        "ouvrage"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Parties d'une chaise",
+      "items": [
+        "dossier",
+        "pieds",
+        "assise",
+        "entretoise"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Instruments de percussion",
+      "items": [
+        "grelots",
+        "triangle",
+        "cloche",
+        "fouet"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Jeu de + _",
+      "items": [
+        "société",
+        "mots",
+        "paume",
+        "boules"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "23 août 2024 - 42",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-08-23",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "éléments de The French Connections",
+      "items": [
+        "Mélanger",
+        "Valider",
+        "Déselectionner",
+        "Essais"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Fin",
+      "items": [
+        "Conclusion",
+        "épilogue",
+        "Issue",
+        "Terme"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Dans le film The French Connection",
+      "items": [
+        "Marseille",
+        "Héroïne",
+        "Mafia",
+        "Course-poursuite"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Dernier + _",
+      "items": [
+        "Adieu",
+        "Mot",
+        "Soupir",
+        "Cri"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

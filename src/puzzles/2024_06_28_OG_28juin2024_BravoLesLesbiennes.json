@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "28 juin 2024 - Bravo les lesbiennes",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-06-28",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Homophones",
+      "items": [
+        "Sans",
+        "Sent",
+        "Cent",
+        "Sang"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Jambe",
+      "items": [
+        "Canne",
+        "Patte",
+        "Compas",
+        "Guitare"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Parties d'un couteau",
+      "items": [
+        "Dents",
+        "Pointe",
+        "Manche",
+        "Empreinte"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Coup de + _",
+      "items": [
+        "Poing",
+        "Foudre",
+        "Projecteur",
+        "Boule"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

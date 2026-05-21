@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "27 novembre 2025 - Chocolatine",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2025-11-27",
+  "author": "Bocky",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Apéro salé",
+      "items": [
+        "canapé",
+        "toast",
+        "petit-four",
+        "tartine"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Facile",
+      "items": [
+        "commode",
+        "pratique",
+        "simple",
+        "confortable"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "S'accroche au mur",
+      "items": [
+        "étagère",
+        "tableau",
+        "tête de sanglier",
+        "patère"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + à glace",
+      "items": [
+        "patin",
+        "armoire",
+        "pic",
+        "bac"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

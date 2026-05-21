@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "17 mai 2024 - Gigantomachie",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2024-05-17",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Postes au football",
+      "items": [
+        "Attaquant",
+        "Défenseur",
+        "Milieu",
+        "Gardien"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "De taille démesurée",
+      "items": [
+        "Titanesque",
+        "Gigantesque",
+        "Grandiose",
+        "Monumental"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Styles de moustaches",
+      "items": [
+        "Impérial",
+        "Pyramidal",
+        "Morse",
+        "Guidon"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Titans dans l'Attaque des titans",
+      "items": [
+        "Colossal",
+        "Assaillant",
+        "Mâchoire",
+        "Charrette"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

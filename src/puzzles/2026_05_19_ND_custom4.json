@@ -2,7 +2,7 @@
   "puzzle_name": "Custom 4",
   "puzzle_difficulty": 4,
   "puzzle_date": "2026-05-22",
-  "author": "",
+  "author": "ND",
   "additional_text": "",
   "groups": [
     {
@@ -30,7 +30,7 @@
       "items": [
         "paris",
         "greenwitch",
-        "toldède",
+        "tolède",
         "uppsala"
       ],
       "difficulty": 3

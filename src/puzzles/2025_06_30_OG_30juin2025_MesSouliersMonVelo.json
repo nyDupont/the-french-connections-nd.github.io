@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "30 juin 2025 - Mes souliers, mon vélo",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2025-06-30",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Attirail",
+      "items": [
+        "Chargement",
+        "Bagages",
+        "Barda",
+        "équipement"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Que l'on roule métaphoriquement pour embrasser",
+      "items": [
+        "Galoche",
+        "Pelle",
+        "Patin",
+        "Saucisse"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Objets dans Mario Kart",
+      "items": [
+        "étoile",
+        "Bananes",
+        "éclair",
+        "Champignons"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Anagrammes",
+      "items": [
+        "Ratisse",
+        "Satires",
+        "Tarisse",
+        "Staries"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

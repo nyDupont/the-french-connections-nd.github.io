@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "8 juillet 2024 - Multiniveaux",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-07-08",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Norme",
+      "items": [
+        "Loi",
+        "Règlement",
+        "Acte",
+        "Obligation"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Rubriques d'un journal",
+      "items": [
+        "Société",
+        "Politique",
+        "Météo",
+        "Sport"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Races pour chat",
+      "items": [
+        "Persan",
+        "Safari",
+        "Siamois",
+        "Sphynx"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Commence par une note de musique",
+      "items": [
+        "Domicile",
+        "République",
+        "Famille",
+        "Soldat"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

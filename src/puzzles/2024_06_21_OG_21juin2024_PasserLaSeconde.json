@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "21 juin 2024 - Passer la seconde",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2024-06-21",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Heureuse",
+      "items": [
+        "Ravie",
+        "Contente",
+        "Radieuse",
+        "Joyeuse"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Enthousiaste",
+      "items": [
+        "Passionnée",
+        "Transportée",
+        "Chaude",
+        "Exaltée"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Types de baleines",
+      "items": [
+        "Boréale",
+        "Bleue",
+        "Grise",
+        "Pygmée"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Guerre + _",
+      "items": [
+        "Froide",
+        "Civile",
+        "Sainte",
+        "Mondiale"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

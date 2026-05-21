@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "6 janvier 2025 - Labyrinthe",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2025-01-06",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Traitre délateur",
+      "items": [
+        "Mouton",
+        "Indicateur",
+        "Espion",
+        "Taupe"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Acteurs d'un procès civil",
+      "items": [
+        "Défenseur",
+        "Demandeur",
+        "Avocat",
+        "Magistrat"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Schtroumpfs",
+      "items": [
+        "Bricoleur",
+        "Poète",
+        "Farceur",
+        "Paresseux"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Personnages du magicien d'Oz",
+      "items": [
+        "épouvantail",
+        "Lion",
+        "Magicien",
+        "Robot"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "6 mai 2024 - Festivals",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2024-05-06",
+  "author": "OG",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Au supermarché",
+      "items": [
+        "Caisses",
+        "Rayons",
+        "Surgelés",
+        "Caddies"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Familles d'instruments de musique",
+      "items": [
+        "Bois",
+        "Cuivres",
+        "Cordes",
+        "Claviers"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "œuvres de Victor Hugo",
+      "items": [
+        "Misérables",
+        "Burgraves",
+        "Châtiments",
+        "Orientales"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Villes françaises",
+      "items": [
+        "Tours",
+        "Vannes",
+        "Colombes",
+        "Cannes"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
