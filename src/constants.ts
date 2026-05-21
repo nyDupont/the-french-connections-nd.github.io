@@ -5,6 +5,36 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles: PuzzleImport[] = [
     {
+        puzzle_name: '21 mai 2026 - Test perso 1',
+        puzzle_difficulty: 3,
+        puzzle_date: new Date('2026-05-21'),
+        author: '',
+        additional_text: '',
+        groups: [
+            {
+                category: 'Préparations fromagères',
+                items: ['soufflet', 'gougère', 'croquette', 'aligot'],
+                difficulty: 1,
+            },
+            {
+                
+                category: 'Personne qui a une haute opinion de soi',
+                items: ['m\'as-tu-vu', 'cacou', 'cake', 'kéké'],
+                difficulty: 2,
+            },
+            {
+                category: 'Objectifs photographiques',
+                items: ['macro', 'longue focale', 'fish-eye', 'soufflet'],
+                difficulty: 3,
+            },
+            {
+                category: 'Psychotropes',
+                items: ['tabac', 'maté', 'cacao', 'kola'],
+                difficulty: 4,
+            }
+        ]
+    },
+    {
         puzzle_name: '12 mai 2026 - Samsara',
         puzzle_difficulty: 3,
         puzzle_date: new Date('2026-05-12'),
