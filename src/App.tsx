@@ -269,11 +269,11 @@ const useGame = (options: Options, difficulty: number, date: Date, author: strin
 
 export const App = () => {
     const toast = useToast()
-    const currentDate = new Date();
-
-    const all_groups_name = all_puzzles.filter((puzzle) => puzzle.puzzle_date <= currentDate);
+    // const currentDate = new Date();
+    // const all_groups_name = all_puzzles.filter((puzzle) => puzzle.puzzle_date <= currentDate);
+    const all_groups_name = all_puzzles; // even future puzzle are available
     const current_puzzle = all_groups_name[0];
-    const ending_text = `The French Connections #${all_groups_name.length}. Prochains puzzles quand j'aurai du temps.`;
+    // const ending_text = `The French Connections #${all_groups_name.length}. Prochains puzzles quand j'aurai du temps.`;
 
     const game = useGame({
         groups: current_puzzle.groups,
@@ -429,7 +429,7 @@ export const App = () => {
                                 )}
                             </Menu>
 
-                            {current_puzzle.puzzle_name != game.current_name && [...Array(5).keys()].map((_, index) => (
+                            {[...Array(5).keys()].map((_, index) => (
                                 index < game.difficulty ? (
                                     <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="yellow.500" />
                                 ) : (
@@ -449,7 +449,7 @@ export const App = () => {
                                 <ModalHeader fontWeight='bold' fontSize="2xl">R&egrave;gles du jeu</ModalHeader>
                                 <ModalCloseButton />
                                 <ModalBody>
-                                    <Text fontWeight='bold'>Trouve des groupes de 4 mots qui partagent quelque chose en commun ! Un nouveau puzzle quand j'ai du temps.</Text>
+                                    <Text fontWeight='bold'>Trouve des groupes de 4 mots qui partagent quelque chose en commun !</Text>
                                     <UnorderedList>
                                         <ListItem>S&eacute;lectionne 4 mots puis appuie sur le bouton "Valider" pour v&eacute;rifier si tu as raison.</ListItem>
                                         <ListItem>Trouve les groupes en faisant moins de 4 erreurs.</ListItem>
@@ -467,7 +467,7 @@ export const App = () => {
                                         <ListItem>&#128309; : Difficile</ListItem>
                                         <ListItem>&#128995; : Tr&egrave;s difficile</ListItem>
                                     </UnorderedList>
-                                    <Text mb='1rem'>&Agrave; l'exception du puzzle en cours, les autres grilles sont not&eacute;es (par moi) en difficult&eacute; de 1 &agrave; 5 &eacute;toiles.</Text>
+                                    <Text mb='1rem'>Les autres grilles sont not&eacute;es par leur auteurice en difficult&eacute; de 1 &agrave; 5 &eacute;toiles.</Text>
                                     <Text mb='1rem'>Le dictionnaire de r&eacute;f&eacute;rence est le Wiktionnaire. Utiliser Internet n'est pas interdit, &agrave; vous de voir si vous pr&eacute;f&eacute;rez chercher les solutions avec ou sans.</Text>
                                 </ModalBody>
                             </ModalContent>
@@ -602,7 +602,7 @@ export const App = () => {
                                 </ModalHeader>
                                 <ModalCloseButton />
                                 <ModalBody>
-                                    {current_puzzle.puzzle_name == game.current_name && <Text mb='1rem'>{ending_text}</Text>}
+                                    {/* {current_puzzle.puzzle_name == game.current_name && <Text mb='1rem'>{ending_text}</Text>} */}
                                     <Text fontSize='4xl' align='center'>
                                         {game.emojiFromGuesses.map((emoji: string, index: number) => (
                                             <React.Fragment key={index}>
