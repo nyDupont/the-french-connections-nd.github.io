@@ -378,7 +378,7 @@ export const App = () => {
                     >
                         <Text fontSize={["xs", "sm"]} textAlign="center">
                             Page officielle de French Connections :{" "}
-                            <a
+                            
                                 href="https://the-french-connections.github.io/"
                                 target="_blank"
                                 rel="noopener noreferrer"
