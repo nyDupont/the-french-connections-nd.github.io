@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 3",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2026-05-21",
+  "author": "",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Taxes",
+      "items": [
+        "zucman",
+        "foncière",
+        "séjour",
+        "carbone"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Doré",
+      "items": [
+        "or",
+        "pyrite",
+        "julien",
+        "staphylocoque"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Symbolisé par un lion",
+      "items": [
+        "peugeot",
+        "gryffondor",
+        "MGM",
+        "flandres"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "_ + Gate(s)",
+      "items": [
+        "bill",
+        "benjamin",
+        "golden",
+        "water"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

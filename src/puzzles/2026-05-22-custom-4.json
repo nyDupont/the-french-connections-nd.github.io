@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 4",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2026-05-22",
+  "author": "",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Latitudes remarquables",
+      "items": [
+        "équateur",
+        "capricorne",
+        "cancer",
+        "arctique"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Villes gagnées par LFI en 2026",
+      "items": [
+        "creil",
+        "la courneuve",
+        "roubaix",
+        "saint-denis"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Candidats historiques au méridien 0",
+      "items": [
+        "paris",
+        "greenwitch",
+        "toldède",
+        "uppsala"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Stations du métro parisien",
+      "items": [
+        "anvers",
+        "liège",
+        "pyrénnées",
+        "rennes"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

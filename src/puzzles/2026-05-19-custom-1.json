@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 1",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-05-19",
+  "author": "",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Préparations fromagères",
+      "items": [
+        "soufflé",
+        "gougère",
+        "croquette",
+        "aligot"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Personne qui a une haute opinion de soi",
+      "items": [
+        "m'as-tu-vu",
+        "cacou",
+        "cake",
+        "kéké"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Objectifs photographiques",
+      "items": [
+        "macro",
+        "zoom",
+        "fish-eye",
+        "soufflet"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Psychotropes",
+      "items": [
+        "tabac",
+        "maté",
+        "cacao",
+        "kola"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
