@@ -5,21 +5,17 @@ import * as React from 'react';
 import {
     Alert,
     AlertTitle,
-    Box,
     Button,
     ChakraProvider,
     Circle,
-    Drawer,
-    DrawerBody,
-    DrawerCloseButton,
-    DrawerContent,
-    DrawerHeader,
-    DrawerOverlay,
     Flex,
     HStack,
     Heading,
-    IconButton,
     ListItem,
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
     Modal,
     ModalBody,
     ModalContent,
@@ -29,17 +25,13 @@ import {
     Stack,
     Text,
     UnorderedList,
-    VStack,
-    // useBreakpointValue,
-    useDisclosure,
     useToast
 } from '@chakra-ui/react';
 import {
-    HamburgerIcon,
+    ChevronDownIcon,
     StarIcon,
 } from '@chakra-ui/icons';
-// import { useState, useRef, useEffect } from 'react';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import useMethods from 'use-methods';
 import { all_puzzles } from './constants.ts';
 
@@ -298,28 +290,20 @@ export const App = () => {
         setIsOpenResults(true);
     };
 
-    // const [showBanner, setShowBanner] = useState(true);
-
-    // const [isOpenDropdown, setIsOpenDropdown] = useState(false);
-    // const selectedItemRef = useRef(null);
-    // const menuListRef = useRef(null);
-
-    // // Find currently selected puzzle's index
-    // const currentIndex = all_groups_name.findIndex(
-    //     (item) => item.puzzle_name === game.current_name
-    // );
-
     const [isOpenRules, setIsOpenRules] = useState(true);
     const [isOpenResults, setIsOpenResults] = useState(true);
 
     const [showBanner, setShowBanner] = useState(true);
 
-    // Drawer (panneau coulissant) pour mobile
-    const { isOpen: isDrawerOpen, onOpen: onDrawerOpen, onClose: onDrawerClose } = useDisclosure();
-    // Sur desktop large, on affiche un sidebar permanent ; sur mobile, un drawer
-    // const isDesktop = useBreakpointValue({ base: false, lg: true });
+    const [isOpenDropdown, setIsOpenDropdown] = useState(false);
+    const selectedItemRef = useRef(null);
+    const menuListRef = useRef(null);
 
-    
+    // Find currently selected puzzle's index
+    const currentIndex = all_groups_name.findIndex(
+        (item) => item.puzzle_name === game.current_name
+    );
+
     /**
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -336,17 +320,17 @@ export const App = () => {
     }, []); 
     */
 
-    // useEffect(() => {
-    //     // When the dropdown is opened, allow scrolling
-    //     if (isOpenDropdown && selectedItemRef.current && menuListRef.current) {
-    //         setTimeout(() => {
-    //             selectedItemRef.current.scrollIntoView({
-    //                 behavior: 'auto',
-    //                 block: 'center'
-    //             });
-    //         }, 100); // Make sure the dropwdown is fully loaded
-    //     }
-    // }, [isOpenDropdown]);
+    useEffect(() => {
+        // When the dropdown is opened, allow scrolling
+        if (isOpenDropdown && selectedItemRef.current && menuListRef.current) {
+            setTimeout(() => {
+                selectedItemRef.current.scrollIntoView({
+                    behavior: 'auto',
+                    block: 'center'
+                });
+            }, 100); // Make sure the dropwdown is fully loaded
+        }
+    }, [isOpenDropdown]);
 
     const handleCloseRules = () => setIsOpenRules(false);
     const handleCloseResults = () => setIsOpenResults(false);
@@ -374,46 +358,6 @@ export const App = () => {
     const writeResults = (game) => {
         return resultText(game) + '\n' + resultEmojis(game);
     }
-
-    const PuzzleList = () => (
-        <VStack align="stretch" spacing={1} w="100%">
-            {all_groups_name.map((puzzle: PuzzleImport) => {
-                const isCurrent = puzzle.puzzle_name === game.current_name;
-                return (
-                    <Box
-                        key={puzzle.puzzle_name}
-                        as="button"
-                        onClick={() => {
-                            handleMenuItemClick(puzzle);
-                            onDrawerClose();
-                        }}
-                        textAlign="left"
-                        px={3}
-                        py={2}
-                        borderRadius="md"
-                        bg={isCurrent ? "blue.100" : "transparent"}
-                        fontWeight={isCurrent ? "bold" : "normal"}
-                        _hover={{ bg: isCurrent ? "blue.100" : "gray.100" }}
-                        title={
-                            (puzzle.author ? `Auteur : ${puzzle.author}\n` : '') +
-                            `Date : ${puzzle.puzzle_date.toISOString().slice(0, 10)}`
-                        }
-                    >
-                        <Text fontSize="sm" noOfLines={2}>{puzzle.puzzle_name}</Text>
-                        <HStack spacing={0} mt={1}>
-                            {[...Array(5).keys()].map((_, i) => (
-                                <StarIcon
-                                    key={i}
-                                    boxSize="0.6em"
-                                    color={i < puzzle.puzzle_difficulty ? "yellow.500" : "gray.300"}
-                                />
-                            ))}
-                        </HStack>
-                    </Box>
-                );
-            })}
-        </VStack>
-    );
 
     return (
         <ChakraProvider>
@@ -456,59 +400,35 @@ export const App = () => {
                         </Button>
                     </Flex>
                 )}
-
-                <IconButton
-                    aria-label="Ouvrir la liste des puzzles"
-                    icon={<HamburgerIcon />}
-                    onClick={onDrawerOpen}
-                    position="fixed"
-                    top={2}
-                    left={2}
-                    zIndex={20}
-                    size="md"
-                    display={{ base: 'flex', lg: 'none' }}
-                />
-
-                <Drawer isOpen={isDrawerOpen} onClose={onDrawerClose} placement="left" size="full">
-                    <DrawerOverlay />
-                    <DrawerContent>
-                        <DrawerCloseButton />
-                        <DrawerHeader>Puzzles</DrawerHeader>
-                        <DrawerBody>
-                            <PuzzleList />
-                        </DrawerBody>
-                    </DrawerContent>
-                </Drawer>
-
-                <Flex>
                 
-                <Box
-                    as="aside"
-                    w="280px"
-                    minH="100vh"
-                    borderRight="1px solid"
-                    borderColor="gray.200"
-                    p={4}
-                    overflowY="auto"
-                    position="sticky"
-                    top={0}
-                    maxH="100vh"
-                    display={{ base: 'none', lg: 'block' }}
-                >
-                    <Heading size="md" mb={4}>Puzzles</Heading>
-                    <PuzzleList />
-                </Box>
-
-                    <Flex direction="column" align="center" justify="center" minHeight="100vh" flex={1}>
+                <Flex direction="column" align="center" justify="center" minHeight="100vh">
                     <Stack spacing={4} align="center">
                         <Heading size={["xl", "2xl", "3xl"]} fontFamily="Georgia" fontWeight="light" align='center'>
                             The French Connections
                         </Heading>
                         <Text fontWeight="semibold">Cr&eacute;e 4 groupes de 4 mots !</Text>
                         <HStack align="baseline">
-                            <Heading size={['md', 'lg']} fontWeight="semibold">
-                                {game.current_name}
-                            </Heading>
+                            <Menu isOpen={isOpenDropdown} onOpen={() => setIsOpenDropdown(true)} onClose={() => setIsOpenDropdown(false)}>
+                                {({ isOpen }) => (
+                                    <>
+                                        <MenuButton size={['s', 'sm', 'md', 'lg']} px={[3, 4, 5, 6]} py={[1, 2]} isActive={isOpen} as={Button} rightIcon={<ChevronDownIcon />}>
+                                            {game.current_name}
+                                        </MenuButton>
+                                        <MenuList ref={menuListRef}
+                                            fontSize={["xs", "s", "md", 'lg']}
+                                            maxHeight={["200px", "250px", "300px", "350px"]}// Set a max height
+                                            overflowY="auto"// Enable vertical scrolling
+                                        >
+                                            {all_groups_name.map((puzzleImport: PuzzleImport, index) => (
+                                                <MenuItem key={index} ref={index === currentIndex ? selectedItemRef : null} onClick={() => handleMenuItemClick(puzzleImport)} backgroundColor={index === currentIndex ? "blue.100" : ""} fontWeight={index === currentIndex ? "bold" : "normal"}>
+                                                    {puzzleImport.puzzle_name}
+                                                </MenuItem>
+                                            ))}
+                                        </MenuList>
+                                    </>
+                                )}
+                            </Menu>
+
                             {[...Array(5).keys()].map((_, index) => (
                                 index < game.difficulty ? (
                                     <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="yellow.500" />
@@ -716,7 +636,6 @@ export const App = () => {
                             </ModalContent>
                         </Modal>}
                     </Stack>
-                </Flex>
                 </Flex>
             </>
         </ChakraProvider>
