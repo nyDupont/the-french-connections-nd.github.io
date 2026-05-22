@@ -310,10 +310,10 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
     // const currentIndex = all_groups_name.findIndex(
     //     (item) => item.puzzle_name === game.current_name
     // );
-    
+
     const toast = useToast();
 
-    const [isOpenRules, setIsOpenRules] = useState(true);
+    const [isOpenRules, setIsOpenRules] = useState(false);
     const [isOpenResults, setIsOpenResults] = useState(false);
 
     const [showBanner, setShowBanner] = useState(true);
@@ -529,21 +529,23 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                     <Flex direction="column" align="center" justify="center" minHeight="100vh" flex={1}>
                     <Stack spacing={4} align="center">
                         <Heading size={["xl", "2xl", "3xl"]} fontFamily="Georgia" fontWeight="light" align='center'>
-                            The French Connections
+                            The French Connect<Text as="span" color="#fbd400">i</Text><Text as="span" color="#b5e352">o</Text><Text as="span" color="#729eeb">n</Text><Text as="span" color="#bc70c4">s</Text>
                         </Heading>
                         <Text fontWeight="semibold">Cr&eacute;e 4 groupes de 4 mots !</Text>
-                        <HStack align="baseline">
-                            <Heading size={['md', 'lg']} fontWeight="semibold">
+                        <VStack spacing={.5} align="center">
+                            <Heading size={['md', 'lg']} fontWeight="semibold" textAlign="center">
                                 {game.current_name}
                             </Heading>
-                            {[...Array(5).keys()].map((_, index) => (
-                                index < game.difficulty ? (
-                                    <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="yellow.500" />
-                                ) : (
-                                    <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="gray.300" />
-                                )
-                            ))}
-                        </HStack>
+                            <HStack>
+                                {[...Array(5).keys()].map((_, index) => (
+                                    index < game.difficulty ? (
+                                        <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="yellow.500" />
+                                    ) : (
+                                        <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="gray.300" />
+                                    )
+                                ))}
+                            </HStack>
+                        </VStack>
                         {game.oneAway && <Alert status='info' variant='left-accent' w={['344px', '438px', '528px', '624px']} animation={game.oneAway ? "fadeIn 0.5s ease" : "fadeOut 0.5s ease"}>
                             <AlertTitle align='center' fontSize={["xs", "s", "md"]}>Presque...</AlertTitle>
                         </Alert>}
@@ -580,7 +582,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                             </ModalContent>
                         </Modal>
                         {game.author != '' && (
-                            <Text mt='-1rem' mb='0.25rem' fontSize={['2xs', 'xs', 'sm', 'md']} px={[2, 3, 4]} textAlign="center" wordBreak="break-word" fontStyle={'italic'}>Auteurice : {game.author}</Text>
+                            <Text mt='-0.5rem' mb='0.25rem' fontSize={['2xs', 'xs', 'sm', 'md']} px={[2, 3, 4]} textAlign="center" wordBreak="break-word" fontStyle={'italic'}>Auteurice : {game.author}</Text>
                         )}
                         {game.additional_text != '' && (
                             <Text mb='0.5rem' fontSize={['2xs', 'xs', 'sm', 'md']} px={[2, 3, 4]} textAlign="center" wordBreak="break-word" fontStyle={'italic'}>{game.additional_text}</Text>
@@ -623,68 +625,86 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                         <HStack align="baseline">
                             <Text fontSize={["14px", "16px"]}>Erreurs : {4 - game.mistakesRemaining}</Text>
                         </HStack>
-                        <HStack padding="1em">
-                            <Button
-                                colorScheme="black"
-                                variant="outline"
-                                rounded="full"
-                                borderWidth="2px"
-                                isDisabled={!game.isFinished}
-                                onClick={() => setIsOpenResults(true)}
-                                fontSize={["13px", "14px", "16px"]}
-                                whiteSpace="normal"
-                                textAlign="center"
-                                px={[2, 3, 4]}
-                                py={[0.5, 1, 2]}
-                            >
-                                Résultats
-                            </Button>
-                            <Button
-                                colorScheme="black"
-                                variant="outline"
-                                rounded="full"
-                                borderWidth="2px"
-                                isDisabled={game.isFinished}
-                                onClick={game.shuffle}
-                                fontSize={["13px", "14px", "16px"]}
-                                whiteSpace="normal"
-                                textAlign="center"
-                                px={[2, 3, 4]}
-                                py={[0.5, 1, 2]}
-                            >
-                                M&eacute;langer
-                            </Button>
-                            <Button
-                                colorScheme="black"
-                                variant="outline"
-                                rounded="full"
-                                borderWidth="2px"
-                                isDisabled={game.activeItems.length <= 0}
-                                onClick={game.deselectAll}
-                                fontSize={["13px", "14px", "16px"]}
-                                whiteSpace="normal"
-                                textAlign="center"
-                                px={[2, 3, 4]}
-                                py={[0.5, 1, 2]}
-                            >
-                                D&eacute;selectionner tout
-                            </Button>
-                            <Button
-                                colorScheme="black"
-                                variant="outline"
-                                rounded="full"
-                                borderWidth="2px"
-                                isDisabled={game.activeItems.length !== 4}
-                                onClick={game.submit}
-                                fontSize={["13px", "14px", "16px"]}
-                                whiteSpace="normal"
-                                textAlign="center"
-                                px={[2, 3, 4]}
-                                py={[0.5, 1, 2]}
-                            >
-                                Valider
-                            </Button>
-                        </HStack>
+                        <VStack padding="1em" spacing={2}>
+                            <HStack spacing={2}>
+                                <Button
+                                    colorScheme="black"
+                                    variant="outline"
+                                    rounded="full"
+                                    borderWidth="2px"
+                                    isDisabled={game.isFinished}
+                                    onClick={game.shuffle}
+                                    fontSize={["13px", "14px", "16px"]}
+                                    whiteSpace="normal"
+                                    textAlign="center"
+                                    px={[2, 3, 4]}
+                                    py={[0.5, 1, 2]}
+                                >
+                                    M&eacute;langer
+                                </Button>
+                                <Button
+                                    colorScheme="black"
+                                    variant="outline"
+                                    rounded="full"
+                                    borderWidth="2px"
+                                    isDisabled={game.activeItems.length <= 0}
+                                    onClick={game.deselectAll}
+                                    fontSize={["13px", "14px", "16px"]}
+                                    whiteSpace="normal"
+                                    textAlign="center"
+                                    px={[2, 3, 4]}
+                                    py={[0.5, 1, 2]}
+                                >
+                                    D&eacute;s&eacute;lectionner
+                                </Button>
+                                <Button
+                                    colorScheme="black"
+                                    variant="outline"
+                                    rounded="full"
+                                    borderWidth="2px"
+                                    isDisabled={game.activeItems.length !== 4}
+                                    onClick={game.submit}
+                                    fontSize={["13px", "14px", "16px"]}
+                                    whiteSpace="normal"
+                                    textAlign="center"
+                                    px={[2, 3, 4]}
+                                    py={[0.5, 1, 2]}
+                                >
+                                    Valider
+                                </Button>
+                            </HStack>
+                            <HStack spacing={2}>
+                                <Button
+                                    colorScheme="black"
+                                    variant="outline"
+                                    rounded="full"
+                                    borderWidth="2px"
+                                    onClick={() => setIsOpenRules(true)}
+                                    fontSize={["13px", "14px", "16px"]}
+                                    whiteSpace="normal"
+                                    textAlign="center"
+                                    px={[2, 3, 4]}
+                                    py={[0.5, 1, 2]}
+                                >
+                                    R&egrave;gles
+                                </Button>
+                                <Button
+                                    colorScheme="black"
+                                    variant="outline"
+                                    rounded="full"
+                                    borderWidth="2px"
+                                    isDisabled={!game.isFinished}
+                                    onClick={() => setIsOpenResults(true)}
+                                    fontSize={["13px", "14px", "16px"]}
+                                    whiteSpace="normal"
+                                    textAlign="center"
+                                    px={[2, 3, 4]}
+                                    py={[0.5, 1, 2]}
+                                >
+                                    R&eacute;sultats
+                                </Button>
+                            </HStack>
+                        </VStack>
                         {game.isFinished && <Modal isOpen={isOpenResults} onClose={handleCloseResults}>
                             <ModalOverlay />
                             <ModalContent>
