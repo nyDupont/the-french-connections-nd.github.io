@@ -26,8 +26,6 @@ import {
     ModalCloseButton,
     ModalHeader,
     ModalOverlay,
-    Radio,
-    RadioGroup,
     Select,
     Stack,
     Text,
@@ -39,6 +37,8 @@ import {
 import {
     HamburgerIcon,
     StarIcon,
+    TriangleDownIcon,
+    TriangleUpIcon,
 } from '@chakra-ui/icons';
 // import { useState, useRef, useEffect } from 'react';
 import { useState } from 'react';
@@ -325,6 +325,26 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
 
     // États pour le tri et les filtres du sidebar
     const [sortBy, setSortBy] = useState<'date' | 'name' | 'difficulty'>('date');
+    const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
+
+    // Sens par défaut pour chaque critère de tri
+    const defaultSortDir: Record<'date' | 'name' | 'difficulty', 'asc' | 'desc'> = {
+        date: 'desc',
+        name: 'asc',
+        difficulty: 'asc',
+    };
+
+    // Quand on clique sur un critère : si c'est déjà le critère actif, on inverse le sens ;
+    // sinon on change de critère et on remet le sens par défaut.
+    const handleSortClick = (criterion: 'date' | 'name' | 'difficulty') => {
+        if (sortBy === criterion) {
+            setSortDir(sortDir === 'asc' ? 'desc' : 'asc');
+        } else {
+            setSortBy(criterion);
+            setSortDir(defaultSortDir[criterion]);
+        }
+    };
+
     const [filterAuthor, setFilterAuthor] = useState<string>('');
     const [filterDifficulty, setFilterDifficulty] = useState<string>('');
 
@@ -341,10 +361,11 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
             return true;
         })
         .sort((a, b) => {
-            if (sortBy === 'date') return b.puzzle_date.getTime() - a.puzzle_date.getTime();
-            if (sortBy === 'name') return a.puzzle_name.localeCompare(b.puzzle_name, 'fr');
-            if (sortBy === 'difficulty') return b.puzzle_difficulty - a.puzzle_difficulty;
-            return 0;
+            let cmp = 0;
+            if (sortBy === 'date') cmp = a.puzzle_date.getTime() - b.puzzle_date.getTime();
+            else if (sortBy === 'name') cmp = a.puzzle_name.localeCompare(b.puzzle_name, 'fr');
+            else if (sortBy === 'difficulty') cmp = a.puzzle_difficulty - b.puzzle_difficulty;
+            return sortDir === 'asc' ? cmp : -cmp;
         });
 
     const handleCloseRules = () => setIsOpenRules(false);
@@ -356,16 +377,36 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
         <VStack align="stretch" spacing={3} mb={3}>
             <Box>
                 <Text fontSize="xs" fontWeight="semibold" mb={1}>Trier par</Text>
-                <RadioGroup
-                    value={sortBy}
-                    onChange={(v) => setSortBy(v as 'date' | 'name' | 'difficulty')}
-                >
-                    <HStack spacing={2}>
-                        <Radio value="date" size="sm">Date</Radio>
-                        <Radio value="name" size="sm">Titre</Radio>
-                        <Radio value="difficulty" size="sm">Difficulté</Radio>
-                    </HStack>
-                </RadioGroup>
+                <HStack spacing={1}>
+                    {(['date', 'name', 'difficulty'] as const).map((criterion) => {
+                        const labels = { date: 'Date', name: 'Titre', difficulty: 'Difficulté' };
+                        const isActive = sortBy === criterion;
+                        return (
+                            <Button
+                                key={criterion}
+                                size="xs"
+                                variant={isActive ? 'solid' : 'outline'}
+                                bg={isActive ? '#729eeb' : 'transparent'}
+                                color={isActive ? 'white' : 'gray.700'}
+                                borderColor={isActive ? '#729eeb' : 'gray.300'}
+                                _hover={{
+                                    bg: isActive ? '#5a87d4' : 'gray.100'
+                                }}
+                                onClick={() => handleSortClick(criterion)}
+                                iconSpacing="0.2rem"
+                                rightIcon={
+                                    isActive ? (
+                                        sortDir === 'asc'
+                                            ? <TriangleUpIcon boxSize="0.8em" mt="-4px" />
+                                            : <TriangleDownIcon boxSize="0.8em" mt="-3px" />
+                                    ) : undefined
+                                }
+                            >
+                                {labels[criterion]}
+                            </Button>
+                        );
+                    })}
+                </HStack>
             </Box>
             <Box>
                 <Text fontSize="xs" fontWeight="semibold" mb={1}>Filtrer par difficulté</Text>
@@ -417,9 +458,10 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                         px={3}
                         py={2}
                         borderRadius="md"
-                        bg={isCurrent ? "blue.100" : "transparent"}
+                        bg={isCurrent ? "#efefe6" : "transparent"}
+                        // color={isCurrent ? "white" : "inherit"}
                         fontWeight={isCurrent ? "bold" : "normal"}
-                        _hover={{ bg: isCurrent ? "blue.100" : "gray.100" }}
+                        _hover={{ bg: isCurrent ? "#efefe6" : "gray.100" }}
                         title={
                             (puzzle.author ? `Auteur : ${puzzle.author}\n` : '') +
                             `Date : ${puzzle.puzzle_date.toISOString().slice(0, 10)}`
@@ -431,7 +473,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                                 <StarIcon
                                     key={i}
                                     boxSize="0.6em"
-                                    color={i < puzzle.puzzle_difficulty ? "yellow.500" : "gray.300"}
+                                    color={i < puzzle.puzzle_difficulty ? "#fbd400" : "gray.300"}
                                 />
                             ))}
                         </HStack>
@@ -447,7 +489,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                 {showBanner && (
                     <Flex
                         w="100%"
-                        bg="blue.500"
+                        bg="#729eeb"
                         color="white"
                         px={4}
                         py={2}
@@ -459,22 +501,22 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                         zIndex={10}
                     >
                         <Text fontSize={["xs", "sm"]} textAlign="center">
-                            Page officielle de French Connections :{" "}
+                            Ceci est une copie de {" "}
                             <a
                                 href="https://the-french-connections.github.io/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ textDecoration: "underline", fontWeight: "bold" }}
                             >
-                                ici
+                                The French Connections
                             </a>
-                            . Ceci est un fork du projet original afin de proposer des puzzles personnalisés. Tout le mérite du développement de cette page revient à son auteur.
+                            .
                         </Text>
                         <Button
                             size="xs"
                             variant="ghost"
                             color="white"
-                            _hover={{ bg: "blue.600" }}
+                            _hover={{ bg: "#5a87d4" }}
                             onClick={() => setShowBanner(false)}
                             ml={2}
                         >
@@ -539,7 +581,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                             <HStack>
                                 {[...Array(5).keys()].map((_, index) => (
                                     index < game.difficulty ? (
-                                        <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="yellow.500" />
+                                        <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="#fbd400" />
                                     ) : (
                                         <StarIcon key={index} boxSize={['0.6em', '0.75em', '1em', '1.25em']} color="gray.300" />
                                     )
@@ -716,7 +758,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                                             <StarIcon
                                                 key={index}
                                                 boxSize="0.9em"
-                                                color={index < game.difficulty ? "yellow.500" : "gray.300"}
+                                                color={index < game.difficulty ? "#fbd400" : "gray.300"}
                                             />
                                         ))}
                                     </HStack>
