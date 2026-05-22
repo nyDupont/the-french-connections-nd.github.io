@@ -8,7 +8,6 @@ import {
     Box,
     Button,
     ChakraProvider,
-    Circle,
     Divider,
     Drawer,
     DrawerBody,
@@ -34,7 +33,6 @@ import {
     Text,
     UnorderedList,
     VStack,
-    // useBreakpointValue,
     useDisclosure,
     useToast
 } from '@chakra-ui/react';
@@ -210,13 +208,14 @@ const methods = (state: State) => {
 
             state.activeItems = [];
 
-            if (state.mistakesRemaining === 0) {
-                state.complete = state.complete.concat(state.incomplete);
-                state.incomplete = [];
-                state.items = [];
-                state.isFinished = true;
-                this.getEmojiFromGuesses();
-            }
+            // terminait le jeu après 4 erreurs
+            // if (state.mistakesRemaining === 0) { 
+            //     state.complete = state.complete.concat(state.incomplete);
+            //     state.incomplete = [];
+            //     state.items = [];
+            //     state.isFinished = true;
+            //     this.getEmojiFromGuesses();
+            // }
         },
 
         getEmojiFromGuesses() {
@@ -280,7 +279,6 @@ const useGame = (options: Options, difficulty: number, date: Date, author: strin
 };
 
 export const App = () => {
-    const toast = useToast()
     // const currentDate = new Date();
     // const all_groups_name = all_puzzles.filter((puzzle) => puzzle.puzzle_date <= currentDate);
     const all_groups_name = all_puzzles; // even future puzzle are available
@@ -297,9 +295,9 @@ export const App = () => {
         current_puzzle.puzzle_name
     );
 
-    const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
+const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
         game.update(puzzleImport);
-        setIsOpenResults(true);
+        setIsOpenResults(false);
     };
 
     // const [showBanner, setShowBanner] = useState(true);
@@ -312,9 +310,11 @@ export const App = () => {
     // const currentIndex = all_groups_name.findIndex(
     //     (item) => item.puzzle_name === game.current_name
     // );
+    
+    const toast = useToast();
 
     const [isOpenRules, setIsOpenRules] = useState(true);
-    const [isOpenResults, setIsOpenResults] = useState(true);
+    const [isOpenResults, setIsOpenResults] = useState(false);
 
     const [showBanner, setShowBanner] = useState(true);
 
@@ -346,61 +346,11 @@ export const App = () => {
             if (sortBy === 'difficulty') return b.puzzle_difficulty - a.puzzle_difficulty;
             return 0;
         });
-    
-    /**
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            toast({
-                title: "Vous avez une idée de puzzle ? Proposez-la ici : https://github.com/the-french-connections/the-french-connections.github.io/issues",
-                status: "success",
-                duration: 6000,
-                isClosable: true,
-                position: "top"
-            });
-        }, 500); // 500ms delay
-
-        return () => clearTimeout(timer); // Cleanup
-    }, []); 
-    */
-
-    // useEffect(() => {
-    //     // When the dropdown is opened, allow scrolling
-    //     if (isOpenDropdown && selectedItemRef.current && menuListRef.current) {
-    //         setTimeout(() => {
-    //             selectedItemRef.current.scrollIntoView({
-    //                 behavior: 'auto',
-    //                 block: 'center'
-    //             });
-    //         }, 100); // Make sure the dropwdown is fully loaded
-    //     }
-    // }, [isOpenDropdown]);
 
     const handleCloseRules = () => setIsOpenRules(false);
     const handleCloseResults = () => setIsOpenResults(false);
 
     const containsHtmlTags = (str: string) => /<[^>]*>/g.test(str);
-
-    const resultText = (game) => {
-        return game.mistakesRemaining === 4 && JSON.stringify(game.discoveredCategories) === JSON.stringify([4, 3, 2, 1]) ? "R\u00E9sultats : Arc-en-ciel invers\u00E9 !!" :
-            game.mistakesRemaining === 4 && JSON.stringify(game.discoveredCategories) === JSON.stringify([1, 2, 3, 4]) ? "R\u00E9sultats : Arc-en-ciel !" :
-                game.mistakesRemaining === 4 ? "R\u00E9sultats - Parfait !" :
-                    game.mistakesRemaining === 3 ? "R\u00E9sultats - Incroyable !" :
-                        game.mistakesRemaining === 2 ? "R\u00E9sultats - Bravo !" :
-                            game.mistakesRemaining === 1 ? "R\u00E9sultats - Bien !" : "R\u00E9sultats - Dommage...";
-    }
-
-    const resultEmojis = (game) => {
-        return game.emojiFromGuesses
-            .map((emoji: string, index: number) => {
-                const circle = String.fromCodePoint(parseInt(emoji.substring(2)));
-                return (index + 1) % 4 === 0 ? circle + '\n' : circle;
-            })
-            .join('');
-    }
-
-    const writeResults = (game) => {
-        return resultText(game) + '\n' + resultEmojis(game);
-    }
 
     const PuzzleControls = () => (
         <VStack align="stretch" spacing={3} mb={3}>
@@ -671,14 +621,7 @@ export const App = () => {
                             ))}
                         </Stack>
                         <HStack align="baseline">
-                            <Text fontSize={["14px", "16px"]}>Essais restants :</Text>
-                            {[...Array(4).keys()].map((_, index) => (
-                                index < game.mistakesRemaining ? (
-                                    <Circle key={index} bg="gray.800" size="12px" />
-                                ) : (
-                                    <Circle key={index} bg="gray.300" size="12px" />
-                                )
-                            ))}
+                            <Text fontSize={["14px", "16px"]}>Erreurs : {4 - game.mistakesRemaining}</Text>
                         </HStack>
                         <HStack padding="1em">
                             <Button
@@ -687,23 +630,14 @@ export const App = () => {
                                 rounded="full"
                                 borderWidth="2px"
                                 isDisabled={!game.isFinished}
-                                onClick={(_) => {
-                                    navigator.clipboard.writeText(writeResults(game));
-                                    toast({
-                                        title: "Copié!",
-                                        status: "success",
-                                        duration: 2000,
-                                        isClosable: true,
-                                        position: "top"
-                                    })
-                                }}
+                                onClick={() => setIsOpenResults(true)}
                                 fontSize={["13px", "14px", "16px"]}
                                 whiteSpace="normal"
                                 textAlign="center"
                                 px={[2, 3, 4]}
                                 py={[0.5, 1, 2]}
                             >
-                                Copier les résultats
+                                Résultats
                             </Button>
                             <Button
                                 colorScheme="black"
@@ -754,41 +688,65 @@ export const App = () => {
                         {game.isFinished && <Modal isOpen={isOpenResults} onClose={handleCloseResults}>
                             <ModalOverlay />
                             <ModalContent>
-                                <ModalHeader fontWeight='bold' fontSize="2xl">
-                                    {resultText(game)}
+                                <ModalHeader textAlign="center" pb={2}>
+                                    <Text fontWeight='bold' fontSize="xl">-- Récapitulatif --</Text>
+                                    <Text fontSize="md" mt={1}>{game.current_name}</Text>
+                                    <HStack justify="center" mt={1}>
+                                        {[...Array(5).keys()].map((_, index) => (
+                                            <StarIcon
+                                                key={index}
+                                                boxSize="0.9em"
+                                                color={index < game.difficulty ? "yellow.500" : "gray.300"}
+                                            />
+                                        ))}
+                                    </HStack>
                                 </ModalHeader>
                                 <ModalCloseButton />
-                                <ModalBody>
-                                    {/* {current_puzzle.puzzle_name == game.current_name && <Text mb='1rem'>{ending_text}</Text>} */}
-                                    <Text fontSize='4xl' align='center'>
+                                <ModalBody pb={6}>
+                                    <Text mb={2}>
+                                        <b>Nombre d'erreurs :</b> {4 - game.mistakesRemaining}
+                                    </Text>
+                                    <Text mb={1}>
+                                        <b>Historique des essais :</b>
+                                    </Text>
+                                    <Text fontSize='2xl' lineHeight='1.2' mb={4}>
                                         {game.emojiFromGuesses.map((emoji: string, index: number) => (
                                             <React.Fragment key={index}>
                                                 {String.fromCodePoint(parseInt(emoji.substring(2)))}
-                                                {(index + 1) % 4 === 0 && <Text>{"\n"}</Text>}
+                                                {(index + 1) % 4 === 0 && index + 1 < game.emojiFromGuesses.length && <br />}
                                             </React.Fragment>
                                         ))}
                                     </Text>
-                                    <Button
-                                        colorScheme="black"
-                                        variant="outline"
-                                        rounded="full"
-                                        borderWidth="2px"
-                                        isDisabled={!game.isFinished}
-                                        onClick={() => {
-                                            navigator.clipboard.writeText(writeResults(game));
-                                            toast({
-                                                title: "Copié!",
-                                                status: "success",
-                                                duration: 2000,
-                                                isClosable: true,
-                                                position: "top"
-                                            })
-                                        }}
-                                        fontSize={["14px", "16px"]}
-                                        h={["30px", "40px"]}
-                                    >
-                                        Copier
-                                    </Button>
+                                    <Flex justify="center">
+                                        <Button
+                                            colorScheme="black"
+                                            variant="outline"
+                                            rounded="full"
+                                            borderWidth="2px"
+                                            onClick={() => {
+                                                const stars = '★'.repeat(game.difficulty) + '☆'.repeat(5 - game.difficulty);
+                                                const emojis = game.emojiFromGuesses
+                                                    .map((e: string, i: number) => {
+                                                        const c = String.fromCodePoint(parseInt(e.substring(2)));
+                                                        return (i + 1) % 4 === 0 ? c + '\n' : c;
+                                                    })
+                                                    .join('');
+                                                const text = `-- Récapitulatif --\n${game.current_name}\n${stars}\n\nNombre d'erreurs : ${4 - game.mistakesRemaining}\nHistorique des essais :\n${emojis}`;
+                                                navigator.clipboard.writeText(text);
+                                                toast({
+                                                    title: "Copié !",
+                                                    status: "success",
+                                                    duration: 2000,
+                                                    isClosable: true,
+                                                    position: "top"
+                                                });
+                                            }}
+                                            fontSize={["14px", "16px"]}
+                                            h={["30px", "40px"]}
+                                        >
+                                            Copier
+                                        </Button>
+                                    </Flex>
                                 </ModalBody>
                             </ModalContent>
                         </Modal>}
