@@ -488,7 +488,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                     icon={<HamburgerIcon />}
                     onClick={onDrawerOpen}
                     position="fixed"
-                    top={2}
+                    top={showBanner ? "60px" : "8px"}
                     left={2}
                     zIndex={20}
                     size="md"
