@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Loutre 2",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-07-08",
+  "author": "BA",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "types dans Pokémon",
+      "items": [
+        "insecte",
+        "poison",
+        "combat",
+        "dragon"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "parmi les merveilles du monde",
+      "items": [
+        "jardin",
+        "tombeau",
+        "phare",
+        "colosse"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "aux échecs",
+      "items": [
+        "fourchette",
+        "ouverture",
+        "promotion",
+        "mat"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "relation de + _",
+      "items": [
+        "dispersion",
+        "fermeture",
+        "confiance",
+        "conjuguaison"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
