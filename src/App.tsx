@@ -44,6 +44,7 @@ import {
 import { useState } from 'react';
 import useMethods from 'use-methods';
 import { all_puzzles } from './constants.ts';
+import { InlineMath } from 'react-katex';
 
 export type Group = {
     category: string;
@@ -276,6 +277,19 @@ const useGame = (options: Options, difficulty: number, date: Date, author: strin
         ...state,
         ...fns,
     };
+};
+
+// Affiche un texte. Si celui-ci est entouré par des $, il est rendu en LaTeX via KaTeX.
+const ItemText = ({ text }: { text: string }) => {
+    if (text.length >= 2 && text.startsWith('$') && text.endsWith('$')) {
+        const latex = '\\displaystyle ' + text.slice(1, -1);
+        return (
+            <span style={{ textTransform: 'none' }}>
+                <InlineMath math={latex} />
+            </span>
+        );
+    }
+    return <>{text}</>;
 };
 
 export const App = () => {
@@ -635,8 +649,15 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                                     <Text fontSize={group.category.length > 45 ? ["xs", "xs", "sm", "md"] : group.category.length > 35 ? ["xs", "sm", "lg", "xl"] : ["sm", "md", "lg", "xl"]} fontWeight="extrabold" textTransform="uppercase">{group.category}</Text>
                                     <Text fontSize={["sm", "md", "l", "xl"]} textTransform="uppercase">
                                         {containsHtmlTags(group.items[0]) ? (
-                                            group.items.map((item) => (
-                                                <span style={{ display: 'inline-block' }} dangerouslySetInnerHTML={{ __html: item }} />
+                                            group.items.map((item, i) => (
+                                                <span key={i} style={{ display: 'inline-block' }} dangerouslySetInnerHTML={{ __html: item }} />
+                                            ))
+                                        ) : group.items.some((it) => it.startsWith('$') && it.endsWith('$')) ? (
+                                            group.items.map((item, i) => (
+                                                <React.Fragment key={i}>
+                                                    <ItemText text={item} />
+                                                    {i < group.items.length - 1 && ', '}
+                                                </React.Fragment>
                                             ))
                                         ) : (
                                             group.items.join(', ')
@@ -657,7 +678,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                                             {containsHtmlTags(item) ? (
                                                 <span dangerouslySetInnerHTML={{ __html: item }} />
                                             ) : (
-                                                item
+                                                <ItemText text={item} />
                                             )}
                                         </Button>
                                     ))}

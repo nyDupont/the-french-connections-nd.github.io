@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 6",
+  "puzzle_difficulty": 2,
+  "puzzle_date": "2026-07-09",
+  "author": "ND",
+  "additional_text": "🐱😸😹🙀",
+  "groups": [
+    {
+      "category": "Arithmétique élémentaire",
+      "items": [
+        "$+$",
+        "$-$",
+        "$\\times$",
+        "$\\div$"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Analyse (1 variable)",
+      "items": [
+        "$\\dfrac{\\mathrm{d}}{\\mathrm{d}x}$",
+        "$\\int \\mathrm{d}x$",
+        "$\\lim_{x\\to\\infty}$",
+        "$\\sum_{n=1}^\\infty$"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Calcul verctoriel",
+      "items": [
+        "$\\vec{\\nabla} f$",
+        "$\\vec{\\nabla} \\cdot \\vec{F}$",
+        "$\\vec{\\nabla} \\times \\vec{F}$",
+        "$\\triangle f$"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Opérations sur les ensembles",
+      "items": [
+        "$\\cup$",
+        "$\\cap$",
+        "$\\setminus$",
+        "$\\in$"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
