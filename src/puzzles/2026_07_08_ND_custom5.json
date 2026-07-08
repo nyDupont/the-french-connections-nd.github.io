@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 5",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-07-08",
+  "author": "ND",
+  "additional_text": "🤓",
+  "groups": [
+    {
+      "category": "Inventés/découverts dans les 1970s",
+      "items": [
+        "IRM",
+        "C",
+        "Fibre optique",
+        "Disquette"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Inventés/découverts dans les 1980s",
+      "items": [
+        "Minitel",
+        "Caml",
+        "TGV",
+        "Game Boy"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Inventés/découverts dans les 1990s",
+      "items": [
+        "Clonage",
+        "Linux",
+        "PlayStation",
+        "DVD"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Inventés/découverts dans les 2000s",
+      "items": [
+        "Tecktonik",
+        "Xbox",
+        "Wikipedia",
+        "Blue-ray"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
