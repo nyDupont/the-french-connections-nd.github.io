@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 7",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-10-01",
+  "author": "ND",
+  "additional_text": "Bonne thèse Ulysse",
+  "groups": [
+    {
+      "category": "Peut contenir de l'alcool",
+      "items": [
+        "Mignonnette",
+        "Amphore",
+        "Tonnelet",
+        "Flasque"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Adjectif relatif à une école philosophique",
+      "items": [
+        "Épicurien",
+        "Stoïcien",
+        "Cynique",
+        "Platonicien"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Nom masculin à terminaison féminine",
+      "items": [
+        "Intervalle",
+        "Squelette",
+        "Musée",
+        "Violoncelle"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Anti + _",
+      "items": [
+        "Moine",
+        "Thèse",
+        "Virus",
+        "Septique"
+      ],
+      "difficulty": 4
+    }
+  ]
+}

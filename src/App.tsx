@@ -279,6 +279,13 @@ const useGame = (options: Options, difficulty: number, date: Date, author: strin
     };
 };
 
+// Point d'entrée pour un affichage de tuile dynamique.
+// Par défaut, affiche l'item tel quel (comportement identique à avant).
+// On pourra brancher ici une logique par-puzzle (ex: probabilités) sans toucher au moteur.
+const getDisplay = (item: string, _state: State): string => {
+    return item;
+};
+
 // Affiche un texte. Si celui-ci est entouré par des $, il est rendu en LaTeX via KaTeX.
 const ItemText = ({ text }: { text: string }) => {
     if (text.length >= 2 && text.startsWith('$') && text.endsWith('$')) {
@@ -678,7 +685,7 @@ const handleMenuItemClick = (puzzleImport: PuzzleImport) => {
                                             {containsHtmlTags(item) ? (
                                                 <span dangerouslySetInnerHTML={{ __html: item }} />
                                             ) : (
-                                                <ItemText text={item} />
+                                                <ItemText text={getDisplay(item, game)} />
                                             )}
                                         </Button>
                                     ))}
