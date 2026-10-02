@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 8",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2026-10-02",
+  "author": "ND",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Synonymes de copie",
+      "items": [
+        "Faux",
+        "Pastiche",
+        "Contrefaçon",
+        "Imitation"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Cartes au tarot",
+      "items": [
+        "Figure",
+        "Atout",
+        "Bout",
+        "Excuse"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Demi-onomatopées animalières",
+      "items": [
+        "Coin",
+        "Cui",
+        "Hou",
+        "Cri"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Mise en + _",
+      "items": [
+        "Demeure",
+        "Plis",
+        "Page",
+        "Bière"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
