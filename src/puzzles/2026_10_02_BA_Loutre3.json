@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Loutre 3",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2026-10-02",
+  "author": "BA",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Oiseaux",
+      "items": [
+        "huppe",
+        "canard",
+        "echasse",
+        "huitrier"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Qui se noue",
+      "items": [
+        "cravate",
+        "lien",
+        "corde",
+        "alliance"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Particules",
+      "items": [
+        "photon",
+        "phonon",
+        "pellicule",
+        "de"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Homophones de structures hydrologiques",
+      "items": [
+        "terme",
+        "laque",
+        "maire",
+        "rue"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
