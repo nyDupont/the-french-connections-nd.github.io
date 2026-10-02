@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 8",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-10-02",
+  "author": "ND",
+  "additional_text": "🪐",
+  "groups": [
+    {
+      "category": "Beaucoup",
+      "items": [
+        "Pléthore",
+        "Myriade",
+        "Moult",
+        "Foule"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Constellations",
+      "items": [
+        "Lion",
+        "Verseau",
+        "Orion",
+        "Persée"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Canidés",
+      "items": [
+        "Coyote",
+        "Renard",
+        "Loup",
+        "Dhole"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Exo + _",
+      "items": [
+        "De",
+        "Squelette",
+        "Thermique",
+        "Planète"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
