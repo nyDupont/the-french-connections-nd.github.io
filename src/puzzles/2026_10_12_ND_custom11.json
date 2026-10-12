@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 11",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-10-12",
+  "author": "ND",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Synonymes de pente",
+      "items": [
+        "Côte",
+        "Inclinaison",
+        "Gradient",
+        "Obliquité"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Épopées",
+      "items": [
+        "Beowulf",
+        "Iliade",
+        "Énéide",
+        "Hobbit"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Os dont le nom scientifique a changé",
+      "items": [
+        "Iliaque",
+        "Cubitus",
+        "Péroné",
+        "Omoplate"
+      ],
+      "difficulty": 4
+    },
+    {
+      "category": "Pénoms de personnages des Simpson",
+      "items": [
+        "Barney",
+        "Carl",
+        "Lenny",
+        "Homer"
+      ],
+      "difficulty": 3
+    }
+  ]
+}
