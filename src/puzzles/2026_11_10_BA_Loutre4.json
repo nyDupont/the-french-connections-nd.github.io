@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Loutre 4",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2026-11-10",
+  "author": "BA",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Contient de l'eau",
+      "items": [
+        "O",
+        "B",
+        "T",
+        "G"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Outil",
+      "items": [
+        "S",
+        "V",
+        "H",
+        "D"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Verbe conjugué à la troisième personne du présent",
+      "items": [
+        "J",
+        "A",
+        "M",
+        "C"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Partie corporelle",
+      "items": [
+        "N",
+        "Q",
+        "L",
+        "K"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
