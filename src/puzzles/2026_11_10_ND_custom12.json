@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 12",
+  "puzzle_difficulty": 4,
+  "puzzle_date": "2026-11-10",
+  "author": "ND",
+  "additional_text": "Taïaut!",
+  "groups": [
+    {
+      "category": "Porte-documents",
+      "items": [
+        "Serviette",
+        "Porte-vues",
+        "Chemise",
+        "Trieur"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Personnages de La Famille Pirate",
+      "items": [
+        "Mâchicoulis",
+        "Sac à main",
+        "Scampi",
+        "Bigorneau"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Oiseaux",
+      "items": [
+        "Secrétaire",
+        "Grue",
+        "Chevalier",
+        "Tournepierre"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Types de stationnement",
+      "items": [
+        "Créneau",
+        "Épis",
+        "Bataille",
+        "Unilatéral alterné"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
