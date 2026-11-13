@@ -23,7 +23,7 @@
         "Scampi",
         "Bigorneau"
       ],
-      "difficulty": 2
+      "difficulty": 4
     },
     {
       "category": "Oiseaux",
@@ -43,7 +43,7 @@
         "Bataille",
         "Unilatéral alterné"
       ],
-      "difficulty": 4
+      "difficulty": 2
     }
   ]
 }

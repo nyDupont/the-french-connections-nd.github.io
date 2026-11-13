@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 13",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-11-13",
+  "author": "ND",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Enthousiasmant",
+      "items": [
+        "Chouette",
+        "Sympa",
+        "Gai",
+        "Jovial"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "Touffe",
+      "items": [
+        "Huppe",
+        "Crête",
+        "Houppe",
+        "Toupet"
+      ],
+      "difficulty": 4
+    },
+    {
+      "category": "Agent de fermentation",
+      "items": [
+        "Mère",
+        "SCOBY",
+        "Levure",
+        "Kéfir"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Grand + _",
+      "items": [
+        "Bi",
+        "Huit",
+        "Père",
+        "Écart"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
