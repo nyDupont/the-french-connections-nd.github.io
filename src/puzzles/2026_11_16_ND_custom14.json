@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 14",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-11-16",
+  "author": "ND",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "Cible à la pétanque",
+      "items": [
+        "Cochonnet",
+        "Cochon",
+        "Petit",
+        "Bouchon"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "On l'/les a quand on a faim",
+      "items": [
+        "Creux",
+        "Dalle",
+        "Crocs",
+        "Dent"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "Représente la mort / le destin",
+      "items": [
+        "Parque",
+        "Camarde",
+        "Moire",
+        "Faucheuse"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "Garde + _",
+      "items": [
+        "Contre",
+        "Manger",
+        "Robe",
+        "Suisse"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
