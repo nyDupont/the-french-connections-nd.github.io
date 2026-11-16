@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Loutre 5",
+  "puzzle_difficulty": 3,
+  "puzzle_date": "2026-11-13",
+  "author": "BA",
+  "additional_text": "",
+  "groups": [
+    {
+      "category": "D'été (pleine saison)",
+      "items": [
+        "Tomate",
+        "Courgette",
+        "Fraise",
+        "Cerise"
+      ],
+      "difficulty": 1
+    },
+    {
+      "category": "D'automne (pleine saison)",
+      "items": [
+        "Pomme",
+        "Butternut",
+        "Panais",
+        "Marron"
+      ],
+      "difficulty": 2
+    },
+    {
+      "category": "D'hiver (pleine saison)",
+      "items": [
+        "Poireau",
+        "Endive",
+        "Orange",
+        "Bergamote"
+      ],
+      "difficulty": 3
+    },
+    {
+      "category": "De printemps (pleine saison)",
+      "items": [
+        "Radis",
+        "Asperge",
+        "Romarin",
+        "Ciboulette"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
