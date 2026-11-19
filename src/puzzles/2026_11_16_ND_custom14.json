@@ -1,6 +1,6 @@
 {
   "puzzle_name": "Custom 14",
-  "puzzle_difficulty": 3,
+  "puzzle_difficulty": 4,
   "puzzle_date": "2026-11-16",
   "author": "ND",
   "additional_text": "",
@@ -13,7 +13,7 @@
         "Petit",
         "Bouchon"
       ],
-      "difficulty": 1
+      "difficulty": 2
     },
     {
       "category": "On l'/les a quand on a faim",
@@ -23,7 +23,7 @@
         "Crocs",
         "Dent"
       ],
-      "difficulty": 2
+      "difficulty": 1
     },
     {
       "category": "Représente la mort / le destin",

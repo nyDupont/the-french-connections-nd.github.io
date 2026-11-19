@@ -1,0 +1,49 @@
+{
+  "puzzle_name": "Custom 15",
+  "puzzle_difficulty": 5,
+  "puzzle_date": "2026-11-19",
+  "author": "ND",
+  "additional_text": "En réponse à Loutre4",
+  "groups": [
+    {
+      "category": "Contigus sur un clavier Azerty",
+      "items": [
+        "A",
+        "Z",
+        "E",
+        "R"
+      ],
+      "difficulty": 4
+    },
+    {
+      "category": "Contigus sur un clavier Azerty",
+      "items": [
+        "W",
+        "X",
+        "C",
+        "V"
+      ],
+      "difficulty": 4
+    },
+    {
+      "category": "Contigus sur un clavier Azerty",
+      "items": [
+        "Y",
+        "U",
+        "H",
+        "J"
+      ],
+      "difficulty": 4
+    },
+    {
+      "category": "Contigus sur un clavier Azerty",
+      "items": [
+        "O",
+        "P",
+        "L",
+        "M"
+      ],
+      "difficulty": 4
+    }
+  ]
+}
